@@ -1,0 +1,23 @@
+div#ft,#hd,div#doc div:nth-child(7),div#doc div:nth-child(8),div#doc div:nth-child(9),div#doc div:nth-child(10),div#boards div div.boxbar{display:none;}
+
+div#boards{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    width: 738px;
+    border: 20px solid #111;
+    box-shadow: 5px 5px 15px rgba(20,20,20,.3);
+    color: #fff;
+    background: rgba(20,20,20,.7);
+}
+
+html{
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://u.teknik.io/oG73h.jpg);
+    background-attachment: fixed;
+}
+
+ul li a{color: #bbb !important;}
+ul li a:hover{color: #fff !important;text-decoration: none !important;}

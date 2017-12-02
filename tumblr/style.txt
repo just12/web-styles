@@ -38,6 +38,7 @@ div#left_column{
     background-attachment: fixed;
     background-position: top;
     opacity: .99;
+    background-color: #000;
 }
 
 .tab_notice{
@@ -124,10 +125,6 @@ a.post_control.post_control-icon.reblog.reblogged::before{
 .identity .controls_section.user_list li .follow_list_item_blog:before{
     background-image: linear-gradient(90deg,rgba(54,70,93,0),#000) !important;
     border-right: 5px solid #111 !important;
-}
-
-.identity{
-    background-color: #222222;
 }
 
 p,a.post_info_link{color: #eee !important;}

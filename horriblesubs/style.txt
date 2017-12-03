@@ -1,0 +1,44 @@
+#menu-item-130418, .msgblk-container.message-blk, #disqus_thread, img#headerimg, #colophon, li#text-24, li#text-8{display: none;}
+
+a.twelvecol.last{
+    height: 199.55px;
+    margin-bottom: 17px;
+    background-image: url('http://i.imgur.com/CDOegyQ.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#main .entry-content h2{border: 0px;text-align: center;margin: 0px 0px 10px 0px;}
+
+#main .entry-content, body{padding: 0px;}
+
+h3.widget-title{margin: 0px;padding: 5px;text-align: center;}
+
+.latest{padding: 0px 5px 0px 5px;}
+
+.morebox a{transition: 0s!important;}
+
+.rls-label a{border: 0px;}
+
+.linkless{opacity: .3;}
+
+#batch-announcement, .series-releases h2:nth-child(1){margin: 0px !important;}
+
+.hs-batches, .hs-shows{padding: 5px;}
+
+/*Colores*/
+
+h3.widget-title, div.entry-content h2{background-color: #1abc9c;}
+
+div.schedule-today, .textwidget, .announcement, .episodecontainer, .release-info:hover, .res-link a:hover, .rls-label a:hover, .dl-link a:hover, #batch-announcement, .hs-batches{background-color: #374047 !important;}
+
+td.schedule-widget-show a, td.schedule-time, h3.widget-title, #main .entry-content h2, .morebox a, .rls-label, .dl-label, .rls-label a, .dl-label a, .rls-label a, .dl-link a, .refreshlink a, .shows-clearlink a, .ind-show a, a, div.series-desc, h1.entry-title, #batch-announcement{color: #fff !important;}
+
+#wrapper, .searchbar, html{background-color: #212121;}
+
+.morebox:hover{background-color: #1abc9c;}
+
+.res-link a{color: #FCEB53 !important;}
+.linkless{color: #FCEB53 !important;}
+
+.searchbar{color: #ccc !important;}

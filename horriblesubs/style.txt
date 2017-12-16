@@ -1,3 +1,4 @@
+@-moz-document url-prefix("http://horriblesubs.info/") {
 #menu-item-130418, .msgblk-container.message-blk, #disqus_thread, img#headerimg, #colophon, li#text-24, li#text-8{display: none;}
 
 a.twelvecol.last{
@@ -42,3 +43,4 @@ td.schedule-widget-show a, td.schedule-time, h3.widget-title, #main .entry-conte
 .linkless{color: #FCEB53 !important;}
 
 .searchbar{color: #ccc !important;}
+}

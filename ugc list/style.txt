@@ -1,0 +1,35 @@
+@-moz-document url("http://stats.ugc-gaming.net/tf/hlstats.php?game=tfcustom") {
+div.block:nth-child(1), span.fHeading, ul.navbar, div.subblock table.data-table:nth-child(3), #footer, div.fSmall, tr.data-table-head:nth-child(1), tr.data-table-head:nth-child(2), img{display: none;}
+
+*{background-color: rgba(0,0,0,0) !important;}
+
+body{
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+div.block, div.subblock:nth-child(4), table.data-table#accordion{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+td.game-table-cell:nth-child(3),td.game-table-cell:nth-child(4),td.game-table-cell:nth-child(6),td.game-table-cell:nth-child(7),td.game-table-cell:nth-child(8){display: none;}
+
+td.game-table-cell:nth-child(1),td.game-table-cell:nth-child(2),td.game-table-cell:nth-child(5){
+	height: 20%;
+    border: 1px solid #fff;
+    background-color: rgba(0,0,0,.3) !important;
+    color: #fff;
+}
+
+a{color: #fff !important;}
+
+::-webkit-scrollbar,::-webkit-scrollbar-button, ::-webkit-scrollbar-track, ::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-thumb, ::-webkit-scrollbar-corner, ::-webkit-resizer{display: none;}
+
+/*115px height*/
+}

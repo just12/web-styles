@@ -1,3 +1,4 @@
+@-moz-document url-prefix("https://www.4chan.org/") {
 div#ft,#hd,div#doc div:nth-child(7),div#doc div:nth-child(8),div#doc div:nth-child(9),div#doc div:nth-child(10),div#boards div div.boxbar{display:none;}
 
 div#boards{
@@ -21,3 +22,11 @@ html{
 
 ul li a{color: #bbb !important;}
 ul li a:hover{color: #fff !important;text-decoration: none !important;}
+/*
+div.column:nth-child(1) ul:nth-child(2) li:nth-child(1) a,
+div.column:nth-child(1) ul:nth-child(2) li:nth-child(3) a,
+div.column:nth-child(3) ul:nth-child(2) li:nth-child(6) a,
+div.column:nth-child(3) ul:nth-child(2) li:nth-child(13) a,
+div.column:nth-child(2) ul:nth-child(2) li:nth-child(2) a
+{color: #99f !important;}
+}

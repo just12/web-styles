@@ -1,3 +1,4 @@
+@-moz-document url-prefix("https://www.tumblr.com/dashboard") {
 div#right_column, ul.sidebar_nav{
     display:none;
 }
@@ -128,3 +129,4 @@ a.post_control.post_control-icon.reblog.reblogged::before{
 }
 
 p,a.post_info_link{color: #eee !important;}
+}

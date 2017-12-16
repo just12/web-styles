@@ -1,1 +1,3 @@
+@-moz-document url("https://www.reddit.com/"), url-prefix("https://www.reddit.com/?count=") {
 .footer-parent, p.debuginfo, .create, .goldvertisement, .sidecontentbox, #sr-header-area, a#header-img.default-header, .trending-subreddits, #header-img, .listing-chooser, section.infobar.listingsignupbar, .sidebox{display: none !important;}
+}

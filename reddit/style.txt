@@ -1,3 +1,46 @@
 @-moz-document url("https://www.reddit.com/"), url-prefix("https://www.reddit.com/?count=") {
 .footer-parent, p.debuginfo, .create, .goldvertisement, .sidecontentbox, #sr-header-area, a#header-img.default-header, .trending-subreddits, #header-img, .listing-chooser, section.infobar.listingsignupbar, .sidebox{display: none !important;}
 }
+
+@-moz-document url("https://www.reddit.com/"), url-prefix("https://www.reddit.com/?count=") {
+body,
+.side,
+.tabmenu li.selected a
+{background-color: #000;}
+
+#search input:nth-child(1),
+#header,
+.tabmenu li a,
+#header-bottom-right,
+.flair, .linkflairlabel,
+.nextprev a, .next-suggestions a
+{background-color: #111;}
+
+#search input:nth-child(1),
+#header
+{border-color: #000 !important;}
+
+.tabmenu li.selected a,
+.flair, .linkflairlabel,
+.nextprev a, .next-suggestions a
+{border-color: #111 !important;}
+
+.tabmenu li.selected a,
+a,
+.tagline a, .search-result-meta a,
+.thing .title:visited
+{color: #fff;}
+
+.thing .title,
+.link .rank,
+.link .score,
+.flair, .linkflairlabel,
+.nextprev a, .next-suggestions a
+{color: #555;}
+
+.link.last-clicked
+{border: 0px;}
+
+.nsfw-stamp
+{border: 0px;background-color: #f22;color: #000;}
+}

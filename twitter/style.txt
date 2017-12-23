@@ -7,8 +7,12 @@ body,
 .new-tweets-bar,
 .tweet:hover,
 .permalink .inline-reply-tweetbox,
-.conversation-module .conversation-tweet-item .tweet:hover
-{background-color: #111;}
+.conversation-module .conversation-tweet-item .tweet:hover,
+.permalink .inline-reply-tweetbox-container,
+.EdgeButton--tertiary,
+.MomentGuideNavigation,
+.MomentCapsuleSummary--hero:hover, .MomentCapsuleSummary--portrait:hover
+{background-color: #111 !important;}
 
 .TwitterCardsGrid.TwitterCard.TwitterCard--animation,
 .global-nav-inner,
@@ -18,10 +22,21 @@ body,
 .permalink-tweet:hover, .permalink-tweet.focus,
 .permalink,
 .PermalinkOverlay .permalink-tweet,
-.stream-end-inner
+.stream-end-inner,
+.ThreadedConversation-moreReplies,
+.PlayableMedia-player,
+.ProfileCanopy-navBar,
+.ProfileHeading-content,
+.ProfileNav-item--userActions,
+.EdgeButton--tertiary:hover,
+.MomentsPage.MomentsGuidePage .AppContent,
+.NotificationsHeadingContent,
+.dropdown.open .dropdown-menu
 {background-color: #000;}
 
-.TwitterCardsGrid .TwitterCardsGrid-col--12{background-color: #fff !important;}
+.TwitterCardsGrid .TwitterCardsGrid-col--12,
+.QuoteTweet [data-item-type="tweet"]
+{background-color: #fff !important;}
 
 #global-actions > li:hover > a, #global-actions > li > a:focus, #global-actions > li.active .text, .DashUserDropdown.dropdown-menu .nightmode-toggle .Icon, .nav.right-actions > li > a:hover, .nav.right-actions > li > a:focus,
 .u-textUserColor, .u-textUserColorHover:hover, .u-textUserColorHover:hover .ProfileTweet-actionCount, .u-textUserColorHover:focus,
@@ -39,7 +54,14 @@ s, .pretty-link:hover s, .pretty-link:focus s, .stream-item-activity-notificatio
 a, .btn-link, .btn-link:focus, .icon-btn, .pretty-link b, .pretty-link:hover s, .pretty-link:hover b, .pretty-link:focus s, .pretty-link:focus b, .metadata a:hover, .metadata a:focus, a.account-group:hover .fullname, a.account-group:focus .fullname, .account-summary:focus .fullname, .message .message-text a, .message .message-text button, .stats a strong, .plain-btn:hover, .plain-btn:focus, .dropdown.open .user-dropdown.plain-btn, .open > .plain-btn, #global-actions .new:before, .module .list-link:hover, .module .list-link:focus, .stats a:hover, .stats a:hover strong, .stats a:focus, .stats a:focus strong, .find-friends-sources li:hover .source, .stream-item a:hover .fullname, .stream-item a:focus .fullname, .stream-item .view-all-supplements:hover, .stream-item .view-all-supplements:focus, .tweet .time a:hover, .tweet .time a:focus, .tweet .details.with-icn b, .tweet .details.with-icn .Icon, .stream-item:hover .original-tweet .details b, .stream-item .original-tweet.focus .details b, .stream-item.open .original-tweet .details b, .client-and-actions a:hover, .client-and-actions a:focus, .dismiss-btn:hover b, .tweet .context .pretty-link:hover s, .tweet .context .pretty-link:hover b, .tweet .context .pretty-link:focus s, .tweet .context .pretty-link:focus b, .list .username a:hover, .list .username a:focus, .list-membership-container .create-a-list, .list-membership-container .create-a-list:hover, .new-tweets-bar, .card .list-details a:hover, .card .list-details a:focus, .card .card-body:hover .attribution, .card .card-body .attribution:focus,
 .metadata, .metadata button.btn-link, .metadata a,
 .media-tagging-block,
-.stream-end, .stream-loading, .stream-placeholder, .content-placeholder, .back-to-top, .btn-link.back-to-top
+.stream-end, .stream-loading, .stream-placeholder, .content-placeholder, .back-to-top, .btn-link.back-to-top,
+.recap-header,
+.ProfileNav-item.is-active .ProfileNav-stat span.ProfileNav-value,
+.ProfileNav-item.is-active .ProfileNav-stat span,
+.EdgeButton--tertiary,
+.ProfileHeaderCard-bio,
+.ProfileHeaderCard-birthdateText, .ProfileHeaderCard-joinDateText, .ProfileHeaderCard-locationText, .ProfileHeaderCard-onlineHoursText, .ProfileHeaderCard-responsivenessLevelText, .ProfileHeaderCard-urlText, .ProfileHeaderCard-vineProfileText, .ProfileHeaderCard-periscopeProfileText,
+.ProfileHeading-toggleItem.is-active, .ProfileHeading-toggleItem.is-active:hover, .ProfileHeading-toggleItem.is-active:focus
 {color: #eee !important;}
 
 .ProfileCardStats-statLabel,
@@ -49,26 +71,58 @@ a, .btn-link, .btn-link:focus, .icon-btn, .pretty-link b, .pretty-link:hover s, 
 .fullname,
 .Icon--medium,
 .HeartAnimation,
-.ProfileTweet-actionCount
+.ProfileTweet-actionCount,
+.ReplyingToContextBelowAuthor,
+.recap-header .dropdown,
+.Icon--small,
+.ProfileNav-item.is-active .ProfileNav-label, .ProfileNav-item.is-active:hover .ProfileNav-label,
+.ProfileNav-label,
+.ProfileNav-value,
+.MomentCapsuleSubtitle,
+.MomentCapsuleSummary-description,
+.MomentCapsuleSummary .MomentCapsuleLikesCount,
+.ActivityItem-activityTimestamp
 {color: #999 !important;}
 
-#global-actions > li > a
-{border-color: #fff;}
+#global-actions > li > a,
+.u-borderUserColor, .u-borderUserColorHover:hover, .u-borderUserColorHover:focus
+{border-color: #fff !important;}
 
 .tweet,
 .stream-item:not(.no-header-background-module),
 .top-timeline-tweetbox .timeline-tweet-box,
-.stream-end-item, .stream-end, .stream-loading, .stream-placeholder
+.stream-end-item, .stream-end, .stream-loading, .stream-placeholder,
+.PlayableMedia-container,
+.recap-header,
+.EdgeButton--tertiary,
+.MomentCapsuleSummaryGroup:nth-child(2n+3),
+.NotificationsHeadingContent,
+.content-header, .content-no-header,
+.QuoteTweet
 {border-color: rgba(0,0,0,0);}
 
 .new-tweets-bar,
 .tweet:hover,
 .permalink.has-replies .inline-reply-tweetbox,
 .tweet .stats,
-.permalink .stats .avatar-row a:first-child
+.permalink .stats .avatar-row a:first-child,
+.tweet, .stream-item:not(.no-header-background-module), .top-timeline-tweetbox .timeline-tweet-box, .stream-end-item, .stream-end, .stream-loading, .stream-placeholder,
+.ThreadedConversation, .ThreadedConversation-moreReplies:after,
+.ProfileHeading-content
 {border-color: #111 !important;}
 
-.DashboardProfileCard{border: #000 !important;}
+.DashboardProfileCard,
+.ActivityItem
+{border-color: #000 !important;}
 
 .btn-link.translate-button{display: none;}
+
+.vellip, .vellip:before, .vellip:after, .conversation-module > li:after, .conversation-module > li:before, .ThreadedConversation--loneTweet:after, .ThreadedConversation-tweet:not(.is-hiddenAncestor) ~ .ThreadedConversation-tweet:before, .ThreadedConversation-tweet:after, .ThreadedConversation-moreReplies:before, .ThreadedConversation-viewOther:before, .ThreadedConversation-unavailableTweet:before, .ThreadedConversation-unavailableTweet:after, .ThreadedConversation--permalinkTweetWithAncestors:before, .mini-avatar-with-thread:before, .permalink.self-thread-permalink-with-descendant .permalink-tweet-container:after, .permalink.self-thread-permalink-with-descendant .inline-reply-tweetbox-container:after{border-color: #f22;}
+
+.Icon--verified
+{color: #f22 !important;}
+
+.QuoteTweet-text{color: #000 !important;}
+
+.ProfileHeading-content{border-bottom: #000 !important;}
 }

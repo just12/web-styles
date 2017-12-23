@@ -6,7 +6,8 @@ div.module.Trends.trends, div.flex-module{display:none;}
 body,
 .new-tweets-bar,
 .tweet:hover,
-.permalink .inline-reply-tweetbox
+.permalink .inline-reply-tweetbox,
+.conversation-module .conversation-tweet-item .tweet:hover
 {background-color: #111;}
 
 .TwitterCardsGrid.TwitterCard.TwitterCard--animation,
@@ -15,7 +16,9 @@ body,
 .stream-item:not(.no-header-background-module),
 .home-tweet-box, .LiveVideo-tweetBox, .RetweetDialog-commentBox,
 .permalink-tweet:hover, .permalink-tweet.focus,
-.permalink
+.permalink,
+.PermalinkOverlay .permalink-tweet,
+.stream-end-inner
 {background-color: #000;}
 
 .TwitterCardsGrid .TwitterCardsGrid-col--12{background-color: #fff !important;}
@@ -35,7 +38,8 @@ body,
 s, .pretty-link:hover s, .pretty-link:focus s, .stream-item-activity-notification .latest-tweet .tweet-row a:hover s, .stream-item-activity-notification .latest-tweet .tweet-row a:focus s,
 a, .btn-link, .btn-link:focus, .icon-btn, .pretty-link b, .pretty-link:hover s, .pretty-link:hover b, .pretty-link:focus s, .pretty-link:focus b, .metadata a:hover, .metadata a:focus, a.account-group:hover .fullname, a.account-group:focus .fullname, .account-summary:focus .fullname, .message .message-text a, .message .message-text button, .stats a strong, .plain-btn:hover, .plain-btn:focus, .dropdown.open .user-dropdown.plain-btn, .open > .plain-btn, #global-actions .new:before, .module .list-link:hover, .module .list-link:focus, .stats a:hover, .stats a:hover strong, .stats a:focus, .stats a:focus strong, .find-friends-sources li:hover .source, .stream-item a:hover .fullname, .stream-item a:focus .fullname, .stream-item .view-all-supplements:hover, .stream-item .view-all-supplements:focus, .tweet .time a:hover, .tweet .time a:focus, .tweet .details.with-icn b, .tweet .details.with-icn .Icon, .stream-item:hover .original-tweet .details b, .stream-item .original-tweet.focus .details b, .stream-item.open .original-tweet .details b, .client-and-actions a:hover, .client-and-actions a:focus, .dismiss-btn:hover b, .tweet .context .pretty-link:hover s, .tweet .context .pretty-link:hover b, .tweet .context .pretty-link:focus s, .tweet .context .pretty-link:focus b, .list .username a:hover, .list .username a:focus, .list-membership-container .create-a-list, .list-membership-container .create-a-list:hover, .new-tweets-bar, .card .list-details a:hover, .card .list-details a:focus, .card .card-body:hover .attribution, .card .card-body .attribution:focus,
 .metadata, .metadata button.btn-link, .metadata a,
-.media-tagging-block
+.media-tagging-block,
+.stream-end, .stream-loading, .stream-placeholder, .content-placeholder, .back-to-top, .btn-link.back-to-top
 {color: #eee !important;}
 
 .ProfileCardStats-statLabel,
@@ -53,7 +57,8 @@ a, .btn-link, .btn-link:focus, .icon-btn, .pretty-link b, .pretty-link:hover s, 
 
 .tweet,
 .stream-item:not(.no-header-background-module),
-.top-timeline-tweetbox .timeline-tweet-box
+.top-timeline-tweetbox .timeline-tweet-box,
+.stream-end-item, .stream-end, .stream-loading, .stream-placeholder
 {border-color: rgba(0,0,0,0);}
 
 .new-tweets-bar,

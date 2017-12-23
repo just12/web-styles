@@ -1,0 +1,36 @@
+@-moz-document url-prefix("https://hooktube.com/watch?v=") {
+.navbar,
+#main-footer
+{display: none !important;}
+
+body,
+.card
+{background-color: #000;}
+
+#video-keywords .badge,
+.btn.btn-block.dropdown-toggle,
+.btn-secondary,
+#video-settings,
+#theater-mode
+{background-color: #222;}
+
+.btn-secondary
+{border-color: #222;}
+
+.card-title,
+.card-body,
+p#video-channel-name,
+.text-left,
+.text-right,
+.fa-thumbs-up, .fa-thumbs-down,
+#video-keywords .badge,
+.btn.btn-block.dropdown-toggle,
+.btn-secondary,
+#video-settings,
+#theater-mode
+{color: #666 !important;}
+
+p#video-channel-name a,
+.card-body a
+{color: #fff;}
+}

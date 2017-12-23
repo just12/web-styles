@@ -4,18 +4,20 @@
 {display: none !important;}
 
 body,
-.card
+.card,
+.modal-content
 {background-color: #000;}
 
 #video-keywords .badge,
 .btn.btn-block.dropdown-toggle,
 .btn-secondary,
 #video-settings,
-#theater-mode
-{background-color: #222;}
+#theater-mode,
+.progress
+{background-color: #111;}
 
 .btn-secondary
-{border-color: #222;}
+{border-color: #111;}
 
 .card-title,
 .card-body,
@@ -27,10 +29,43 @@ p#video-channel-name,
 .btn.btn-block.dropdown-toggle,
 .btn-secondary,
 #video-settings,
-#theater-mode
+#theater-mode,
+.col-sm-9,
+.text-muted small,
+.list-channel-title
 {color: #666 !important;}
 
 p#video-channel-name a,
-.card-body a
-{color: #fff;}
+.card-body a,
+.col-sm-3 a,
+.text-primary,
+a,
+.modal-title,
+.close,
+label,
+small,
+#video-speed-show
+{color: #fff !important;}
+
+.btn-success,
+#progress-bar-likes div
+{background-color: #f22;}
+
+.btn-success,
+.modal-content,
+.modal-header
+{border-color: #f22;}
+
+.close{text-shadow: 0px 0px 0px;}
+
+#video-speed{
+	position: relative;
+	top: 6px;
+}
+
+.modal-dialog{opacity: .9;}
+
+.btn-success:hover{background-color: #f44;border-color: #f44;}
+
+.btn-secondary:hover, #video-settings:hover, #theater-mode:hover{background-color: #222;border-color: #222;}
 }

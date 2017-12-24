@@ -1,5 +1,5 @@
-@-moz-document url-prefix("http://horriblesubs.info/") {
-#menu-item-130418, .msgblk-container.message-blk, #disqus_thread, img#headerimg, #colophon, li#text-24, li#text-8{display: none;}
+@-moz-document domain("horriblesubs.info") {
+#menu-item-130418, .msgblk-container.message-blk, #disqus_thread, img#headerimg, #colophon, li#text-24, li#text-8, #text-26{display: none;}
 
 a.twelvecol.last{
     height: 199.55px;

@@ -46,7 +46,8 @@ a,
 .close,
 label,
 small,
-#video-speed-show
+#video-speed-show,
+.show>a
 {color: #fff;}
 
 .btn-success,
@@ -75,5 +76,7 @@ a:hover{color: #f22 !important;}
 .btn-secondary.active, .btn-secondary:active, .show>.btn-secondary.dropdown-toggle
 {background-color: #222;border-color: #222;}
 
-.btn-success.focus, .btn-success:focus{box-shadow: 0 0 0 3px rgba(167, 40, 40, 0.5);}
+.btn-success.focus, .btn-success:focus,
+.btn.focus, .btn:focus
+{box-shadow: 0 0 0 3px rgba(167, 40, 40, 0.5);}
 }

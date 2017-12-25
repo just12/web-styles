@@ -4,7 +4,7 @@ Custom styles for various webs.
 ### 4chan
 ![alt text](https://github.com/just12/web-styles/raw/master/4chan/4chan.png)
 
-### Hooktube
+### hooktube
 ![alt text](https://github.com/just12/web-styles/raw/master/hooktube/hooktube.png)
 
 ### horriblesubs

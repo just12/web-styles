@@ -1,6 +1,7 @@
 @-moz-document url-prefix("https://hooktube.com/watch?v=") {
 .navbar,
-#main-footer
+#main-footer,
+#video-list-prom
 {display: none !important;}
 
 body,
@@ -13,7 +14,8 @@ body,
 .btn-secondary,
 #video-settings,
 #theater-mode,
-.progress
+.progress,
+.dropdown-menu
 {background-color: #111;}
 
 .btn-secondary
@@ -45,7 +47,7 @@ a,
 label,
 small,
 #video-speed-show
-{color: #fff !important;}
+{color: #fff;}
 
 .btn-success,
 #progress-bar-likes div
@@ -55,6 +57,8 @@ small,
 .modal-content,
 .modal-header
 {border-color: #f22;}
+
+a:hover{color: #f22 !important;}
 
 .close{text-shadow: 0px 0px 0px;}
 
@@ -67,5 +71,9 @@ small,
 
 .btn-success:hover{background-color: #f44;border-color: #f44;}
 
-.btn-secondary:hover, #video-settings:hover, #theater-mode:hover{background-color: #222;border-color: #222;}
+.btn-secondary:hover, #video-settings:hover, #theater-mode:hover,
+.btn-secondary.active, .btn-secondary:active, .show>.btn-secondary.dropdown-toggle
+{background-color: #222;border-color: #222;}
+
+.btn-success.focus, .btn-success:focus{box-shadow: 0 0 0 3px rgba(167, 40, 40, 0.5);}
 }

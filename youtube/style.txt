@@ -1,0 +1,55 @@
+@-moz-document domain("youtube.com") {
+ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-child(4),
+ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-child(5),
+ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-child(6),
+div#footer.style-scope.ytd-guide-renderer,
+div#buttons.style-scope.ytd-masthead,
+ytd-topbar-logo-renderer#logo.style-scope.ytd-masthead,
+button#guide-button.style-scope.ytd-masthead
+{display: none;}
+
+ytd-searchbox[mode=legacy][has-focus]#container.ytd-searchbox,
+div#container.style-scope.ytd-searchbox,
+ytd-searchbox[mode=legacy][has-focus] #container.ytd-searchbox,
+ytd-searchbox[mode=legacy-centered][has-focus] #container.ytd-searchbox
+{border: 0px !important;}
+
+ytd-searchbox#search.style-scope.ytd-masthead,
+form#search-form.style-scope.ytd-searchbox
+{
+	position: absolute !important;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    max-width: none;
+    margin: 0px;
+}
+
+ytd-searchbox[mode=legacy] #container.ytd-searchbox{
+    border: 0px;
+    background-color: #000;
+    border-radius: 0px;
+}
+
+.badge-style-type-live-now.ytd-badge-supported-renderer{
+    background-color: #000;
+    color: #f22;
+    border-color: #f22 !important;
+}
+
+form#search-form.style-scope.ytd-searchbox{border-bottom: 1px solid #111;}
+div#sections{border-right: 1px solid #111;}
+#search-icon-legacy.ytd-searchbox{border: 0px;border-left: 1px solid #111 !important;}
+*{outline: none !important;}
+
+div#sections,
+ytd-browse,
+button#search-icon-legacy,
+ytd-watch
+{background-color: #000 !important;}
+
+span.style-scope.ytd-grid-video-renderer,
+yt-formatted-string.style-scope.ytd-grid-video-renderer.complex-string a
+{color: #444;}
+}

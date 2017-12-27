@@ -35,7 +35,9 @@ body,
 .NotificationsHeadingContent,
 .dropdown.open .dropdown-menu,
 .PermalinkOverlay-spinnerContainer,
-.hovercard
+.hovercard,
+button.ThreadedConversation-showMoreThreadsButton.u-textUserColor,
+.ThreadedConversation--header
 {background-color: #000 !important;}
 
 .TwitterCardsGrid .TwitterCardsGrid-col--12,
@@ -89,7 +91,8 @@ a, .btn-link, .btn-link:focus, .icon-btn, .pretty-link b, .pretty-link:hover s, 
 .MomentCapsuleSummary .MomentCapsuleLikesCount,
 .ActivityItem-activityTimestamp,
 .TwitterCard .SummaryCard-destination,
-.bio.profile-field.u-dir
+.bio.profile-field.u-dir,
+.ThreadedConversation--header
 {color: #999 !important;}
 
 #global-actions > li > a,
@@ -120,7 +123,9 @@ a, .btn-link, .btn-link:focus, .icon-btn, .pretty-link b, .pretty-link:hover s, 
 {border-color: #111 !important;}
 
 .DashboardProfileCard,
-.ActivityItem
+.ActivityItem,
+.ThreadedConversation-showMoreThreads,
+.ThreadedConversation--header
 {border-color: #000 !important;}
 
 .btn-link.translate-button{display: none;}

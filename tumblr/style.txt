@@ -62,7 +62,8 @@ div#left_column{
     background: rgba(0,0,0,.3);
 }
 
-div.post_tags.nowrap.draggable:after{
+div.post_tags.nowrap.draggable:after,
+.peepr-body .indash_blog .post_tags:after{
     background: linear-gradient(to right, rgba(255,255,255,0) 0%, #000 100%) !important;
 }
 
@@ -129,4 +130,21 @@ a.post_control.post_control-icon.reblog.reblogged::before{
 }
 
 p,a.post_info_link{color: #eee !important;}
+
+*{z-index: 2;}
+
+/*body::after{
+	content: "";
+    position: fixed;
+    top: 50%;
+    left: 50px;
+    width: 327px;
+    height: 490px;
+    background-color: #f22;
+    transform: translateY(-50%);
+    z-index: 1 !important;
+    background-image: url("https://u.teknik.io/WDXal.jpg");
+    background-size: cover;
+    background-position: center;
+}*/
 }

@@ -11,7 +11,9 @@ body,
 .permalink .inline-reply-tweetbox-container,
 .EdgeButton--tertiary,
 .MomentGuideNavigation,
-.MomentCapsuleSummary--hero:hover, .MomentCapsuleSummary--portrait:hover
+.MomentCapsuleSummary--hero:hover, .MomentCapsuleSummary--portrait:hover,
+.EdgeButton--primary, .EdgeButton--primary:focus,
+.TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--chart
 {background-color: #111 !important;}
 
 .TwitterCardsGrid.TwitterCard.TwitterCard--animation,
@@ -31,8 +33,9 @@ body,
 .EdgeButton--tertiary:hover,
 .MomentsPage.MomentsGuidePage .AppContent,
 .NotificationsHeadingContent,
-.dropdown.open .dropdown-menu
-{background-color: #000;}
+.dropdown.open .dropdown-menu,
+.PermalinkOverlay-spinnerContainer
+{background-color: #000 !important;}
 
 .TwitterCardsGrid .TwitterCardsGrid-col--12,
 .QuoteTweet [data-item-type="tweet"]
@@ -81,7 +84,8 @@ a, .btn-link, .btn-link:focus, .icon-btn, .pretty-link b, .pretty-link:hover s, 
 .MomentCapsuleSubtitle,
 .MomentCapsuleSummary-description,
 .MomentCapsuleSummary .MomentCapsuleLikesCount,
-.ActivityItem-activityTimestamp
+.ActivityItem-activityTimestamp,
+.TwitterCard .SummaryCard-destination
 {color: #999 !important;}
 
 #global-actions > li > a,
@@ -125,4 +129,25 @@ a, .btn-link, .btn-link:focus, .icon-btn, .pretty-link b, .pretty-link:hover s, 
 .QuoteTweet-text{color: #000 !important;}
 
 .ProfileHeading-content{border-bottom: #000 !important;}
+}
+
+@-moz-document url-prefix("https://twitter.com/i/cards") {
+.TwitterCardsGrid .TwitterCardsGrid-col--12, .QuoteTweet [data-item-type="tweet"]{background-color: #000 !important;}
+
+.TwitterCard .PollXChoice-footer{color: #999;}
+
+.TwitterCard{color: #fff;}
+
+.TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--input:checked+.PollXChoice-choice--radio{filter: hue-rotate(-150deg) !important;}
+
+.TwitterCard .EdgeButton--secondary,
+.TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--radio{
+    border-color: #f22;
+    color: #f22;
+}
+
+.TwitterCard .EdgeButton--secondary:hover{
+    background-color: #f22;
+    color: #f22;
+}
 }

@@ -34,7 +34,8 @@ body,
 .MomentsPage.MomentsGuidePage .AppContent,
 .NotificationsHeadingContent,
 .dropdown.open .dropdown-menu,
-.PermalinkOverlay-spinnerContainer
+.PermalinkOverlay-spinnerContainer,
+.hovercard
 {background-color: #000 !important;}
 
 .TwitterCardsGrid .TwitterCardsGrid-col--12,
@@ -64,7 +65,9 @@ a, .btn-link, .btn-link:focus, .icon-btn, .pretty-link b, .pretty-link:hover s, 
 .EdgeButton--tertiary,
 .ProfileHeaderCard-bio,
 .ProfileHeaderCard-birthdateText, .ProfileHeaderCard-joinDateText, .ProfileHeaderCard-locationText, .ProfileHeaderCard-onlineHoursText, .ProfileHeaderCard-responsivenessLevelText, .ProfileHeaderCard-urlText, .ProfileHeaderCard-vineProfileText, .ProfileHeaderCard-periscopeProfileText,
-.ProfileHeading-toggleItem.is-active, .ProfileHeading-toggleItem.is-active:hover, .ProfileHeading-toggleItem.is-active:focus
+.ProfileHeading-toggleItem.is-active, .ProfileHeading-toggleItem.is-active:hover, .ProfileHeading-toggleItem.is-active:focus,
+.ProfileCard .ProfileCard-screennameLink, .ProfileCard .ProfileCard-screennameLink:hover, .ProfileCard .ProfileCard-screennameLink:focus,
+.bio.profile-field.u-dir a
 {color: #eee !important;}
 
 .ProfileCardStats-statLabel,
@@ -85,7 +88,8 @@ a, .btn-link, .btn-link:focus, .icon-btn, .pretty-link b, .pretty-link:hover s, 
 .MomentCapsuleSummary-description,
 .MomentCapsuleSummary .MomentCapsuleLikesCount,
 .ActivityItem-activityTimestamp,
-.TwitterCard .SummaryCard-destination
+.TwitterCard .SummaryCard-destination,
+.bio.profile-field.u-dir
 {color: #999 !important;}
 
 #global-actions > li > a,
@@ -129,6 +133,8 @@ a, .btn-link, .btn-link:focus, .icon-btn, .pretty-link b, .pretty-link:hover s, 
 .QuoteTweet-text{color: #000 !important;}
 
 .ProfileHeading-content{border-bottom: #000 !important;}
+
+.HeartAnimation{filter: grayscale(100%);}
 }
 
 @-moz-document url-prefix("https://twitter.com/i/cards") {

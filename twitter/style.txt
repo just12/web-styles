@@ -125,7 +125,8 @@ a, .btn-link, .btn-link:focus, .icon-btn, .pretty-link b, .pretty-link:hover s, 
 .DashboardProfileCard,
 .ActivityItem,
 .ThreadedConversation-showMoreThreads,
-.ThreadedConversation--header
+.ThreadedConversation--header,
+.DashboardProfileCard-avatarImage
 {border-color: #000 !important;}
 
 .btn-link.translate-button{display: none;}
@@ -140,6 +141,8 @@ a, .btn-link, .btn-link:focus, .icon-btn, .pretty-link b, .pretty-link:hover s, 
 .ProfileHeading-content{border-bottom: #000 !important;}
 
 .HeartAnimation{filter: grayscale(100%);}
+
+.DashboardProfileCard-avatarLink{background-color: #0000;}
 }
 
 @-moz-document url-prefix("https://twitter.com/i/cards") {

@@ -5,7 +5,8 @@ ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-child(6),
 div#footer.style-scope.ytd-guide-renderer,
 div#buttons.style-scope.ytd-masthead,
 ytd-topbar-logo-renderer#logo.style-scope.ytd-masthead,
-button#guide-button.style-scope.ytd-masthead
+button#guide-button.style-scope.ytd-masthead,
+#alerts
 {display: none;}
 
 ytd-searchbox[mode=legacy][has-focus]#container.ytd-searchbox,
@@ -46,8 +47,23 @@ div#sections{border-right: 1px solid #111;}
 div#sections,
 ytd-browse,
 button#search-icon-legacy,
-ytd-watch
+ytd-watch,
+body,html
 {background-color: #000 !important;}
+
+ytd-playlist-sidebar-renderer,
+.header.ytd-playlist-panel-renderer
+{background-color: #040404 !important;}
+
+ytd-browse[page-subtype="playlist"] ytd-two-column-browse-results-renderer.ytd-browse,
+.playlist-items.ytd-playlist-panel-renderer
+{background-color: #0b0b0b;}
+
+ytd-subscribe-button-renderer:not([button-style]) paper-button:not([subscribed]),
+ytd-thumbnail-overlay-resume-playback-renderer,
+#progress.ytd-thumbnail-overlay-resume-playback-renderer,
+#like-bar.ytd-sentiment-bar-renderer
+{background-color: #f22 !important;}
 
 span.style-scope.ytd-grid-video-renderer,
 yt-formatted-string.style-scope.ytd-grid-video-renderer.complex-string a

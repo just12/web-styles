@@ -1,0 +1,72 @@
+@-moz-document url-prefix("https://discordapp.com/channels/") {
+button.btn-download-apps
+{display: none !important;}
+
+.theme-dark .message-group .comment .markup .mention
+{background-color: #0000;}
+
+.guilds-wrapper,
+.contentSelectedText-3j5CXt,
+.theme-dark .friends-table .messages .divider:not(.red) div, .theme-dark .messages-wrapper .messages .divider:not(.red) div,
+.theme-dark .themed-popout .header,
+.theme-dark .messages-popout-wrap .messages-popout .message-group,
+.theme-dark .channel-members .member.popout-open, .theme-dark .channel-members .member:hover,
+.theme-dark .headerNormal-1cioxU,
+.unread-2TDDFN,
+.container-iksrDt
+{background: #000;}
+
+.guilds-wrapper .guilds .friends-icon,
+.guilds-wrapper .guilds-add,
+.channels-3g2vYe,
+.container-RYiLUQ,
+.theme-dark .inner-3if5cm,
+.theme-dark .title-qAcLxz,
+.theme-dark .friends-table .messages .divider:before, .theme-dark .friends-table .messages .divider span, .theme-dark .messages-wrapper .messages .divider:before, .theme-dark .messages-wrapper .messages .divider span,
+.theme-dark .themed-popout,
+.theme-dark .channel-members,
+.theme-dark .body-3rkFrF, .theme-dark .footer-2J5zqP,
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb
+{background-color: #111;}
+
+.theme-dark .friends-table, .theme-dark .messages-wrapper,
+.theme-dark .chat form,
+.theme-dark .chat form .typing,
+.contentHoveredText-2HYGIY,
+.unread-2TDDFN:hover,
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece,
+div.flex-spacer.flex-vertical
+{background-color: #222;}
+
+.chat .new-messages-bar,
+.chat .new-messages-bar:hover,
+.iconBadge-1FYlQB
+{background-color: #f22;}
+
+.theme-dark .themed-popout,
+.theme-dark .messages-popout-wrap .messages-popout .message-group
+{border-color: #000;}
+
+.theme-dark .message-group:not(.has-divider),
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece,
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb,
+.theme-dark .iconBadge-1FYlQB
+{border-color: #333;}
+
+.nameDefaultText-QoumjC, .nameDefaultVoice-1swZoh, .nameLockedText-2fGz07, .nameLockedVoice-wNOMNa,
+.channelIcon-1KtcMW,
+.theme-dark .friends-table .messages .divider:not(.red) span, .theme-dark .messages-wrapper .messages .divider:not(.red) span,
+.iconCollapsed-1INdMX, .iconDefault-xzclSQ, .nameCollapsed-3_ChMu, .nameDefault-Lnjrwm,
+.channel-members .member .member-activity
+{color: #666 !important;}
+
+.nameMutedText-1YDcP-, .nameMutedVoice-26k4cP,
+.message-group.compact .message:hover .timestamp
+{color: #444 !important;}
+
+.chat .new-messages-bar button:last-child
+{color: #fff;}
+
+.theme-dark .chat form
+{box-shadow: 0 -1px 0 #333;}
+}

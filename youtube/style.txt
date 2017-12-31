@@ -52,7 +52,8 @@ body,html
 {background-color: #000 !important;}
 
 ytd-playlist-sidebar-renderer,
-.header.ytd-playlist-panel-renderer
+.header.ytd-playlist-panel-renderer,
+ytd-add-to-playlist-renderer
 {background-color: #040404 !important;}
 
 ytd-browse[page-subtype="playlist"] ytd-two-column-browse-results-renderer.ytd-browse,
@@ -62,8 +63,16 @@ ytd-browse[page-subtype="playlist"] ytd-two-column-browse-results-renderer.ytd-b
 ytd-subscribe-button-renderer:not([button-style]) paper-button:not([subscribed]),
 ytd-thumbnail-overlay-resume-playback-renderer,
 #progress.ytd-thumbnail-overlay-resume-playback-renderer,
-#like-bar.ytd-sentiment-bar-renderer
+#like-bar.ytd-sentiment-bar-renderer,
+div.ytp-play-progress.ytp-swatch-background-color
 {background-color: #f22 !important;}
+
+#label.checkbox-height.ytd-playlist-add-to-option-renderer:hover,
+a.yt-simple-endpoint.style-scope.yt-formatted-string:hover,
+span.style-scope.ytd-comment-renderer:hover,
+span#video-title:hover,
+paper-button.align-by-text.style-scope.ytd-comment-replies-renderer:hover
+{color: #f22;}
 
 span.style-scope.ytd-grid-video-renderer,
 yt-formatted-string.style-scope.ytd-grid-video-renderer.complex-string a

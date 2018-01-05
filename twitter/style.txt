@@ -13,8 +13,9 @@ body,
 .MomentGuideNavigation,
 .MomentCapsuleSummary--hero:hover, .MomentCapsuleSummary--portrait:hover,
 .EdgeButton--primary, .EdgeButton--primary:focus,
-.TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--chart
-{background-color: #111 !important;}
+.TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--chart,
+.tooltip-inner
+{background-color: #020202 !important;}
 
 .TwitterCardsGrid.TwitterCard.TwitterCard--animation,
 .global-nav-inner,

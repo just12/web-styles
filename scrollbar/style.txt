@@ -3,16 +3,17 @@
 }
 
 ::-webkit-scrollbar{
-    background-color: rgba(0,0,0,.2);
+    background-color: #0003;
     width: 7px;
+    height: 7px;
 }
 ::-webkit-scrollbar-thumb{
-    background-color: rgba(255,255,255,.7);
+    background-color: #ffffffb3;
     border-radius: 100px;
 }
 
+::-webkit-scrollbar-corner{background-color: #222;}
 /*
-::-webkit-scrollbar-corner{}
 ::-webkit-resizer{}
 ::-webkit-scrollbar-button{}
 ::-webkit-scrollbar-track{}

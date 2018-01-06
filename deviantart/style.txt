@@ -1,0 +1,97 @@
+/* ==UserStyle==
+@name           Custom deviantart
+@namespace      htmls://github.com/just12/web-styles
+@version        0.1.0
+@description    A new userstyle
+@author         just12
+==/UserStyle== */
+@-moz-document url-prefix("https://www.deviantart.com/") {
+    .browse-facet.browse-facet-state,
+    #oh-menu-upgrade,
+    #navbar-menu .navbar-menu-item.navbar-menu-separator,
+    .ad-container,
+    .icon-cog:before,
+    .browse-top-bar,
+    .f.messages-left,
+    .mm,
+    div.mcbox-thumb .user-symbol, div.mcbox-list .user-symbol,
+    .mcviews
+    {display: none !important;}
+    
+	#overhead-collect,
+    body.deviantart #overhead,
+    #oh-menu-deviant, #oh-menu-split, #oh-menu-friends, #oh-menu-collect, #oh-menu-cart, #oh-menu-join, #oh-loginbutton, #overhead .oh-mc-split, #oh-menu-greeting,
+    #browse-sidemenu ul li a.selected,
+    .mcbox-preview-critique .ch-ctrl, .mcbox-preview-journal .ch-ctrl, .mbcox-preview-contest .ch-ctrl, .mcbox-preview-forum .ch-ctrl, .mcbox-preview-stack .ch-ctrl, .mcbox-full-stack .ch-ctrl, .mcbox-thumb .ch-ctrl
+    {background-color: #000 !important;}
+    
+    #overhead #search7 input[name=q],
+    #overhead #search7 input[name=q]:focus
+    {background-color: #111;}
+    
+    #navbar-menu .navbar-menu-inner,
+    #output>.browse-container.newbrowse .browse-left-bar,
+    #output>.browse-container.newbrowse .browse-left-bar .browse-left-bar-inner,
+    h2.mczone-title
+    {background-color: #222;}
+    
+    #oh-menu-submit>a>span,
+    .oh-menu, #overhead-collect #lub, div.popup2.popup2-click-friends,
+    body, #output,
+    .mmhover.oh-hashover .oh-l, .mmhover2 .oh-l, .mmhover3 .oh-l, .oh-nohover .oh-l:hover, .oh-hasbutton .active, .oh-m:active,
+    div.messages,
+    div.mczone
+    {background-color: #333;}
+    
+    body.deviantart #overhead,
+    #oh-menu-deviant, #oh-menu-split, #oh-menu-friends, #oh-menu-collect, #oh-menu-cart, #oh-menu-join, #oh-loginbutton, #overhead .oh-mc-split, #oh-menu-greeting,
+    .ch-ctrl,
+    .mcbox-preview-critique .ch-ctrl, .mcbox-preview-journal .ch-ctrl, .mbcox-preview-contest .ch-ctrl, .mcbox-preview-forum .ch-ctrl, .mcbox-preview-stack .ch-ctrl, .mcbox-full-stack .ch-ctrl, .mcbox-thumb .ch-ctrl
+    {border-color: #000 !important;}
+    
+    #overhead #search7 input[name=q]
+    {border-color: #111;}
+    
+    .oh-hr, #overhead hr,
+    #output>.browse-container.newbrowse .browse-left-bar,
+    h2.mczone-title,
+    div.mczone
+    {border-color: #222 !important;}
+    
+    #navbar-menu .navbar-menu-item.active,
+    .browse-search-container
+    {border-color: #eee;}
+    
+    .oh-menu .oh-darker, .oh-menu .oh-darker a,
+    #navbar-menu .navbar-menu-item:hover,
+    #browse-sidemenu .noncollapseHeader,
+    body.gruze .bubbleview
+    {color: #999 !important;}
+    
+    #overhead, #oh-mainmenu-cloned,
+    #overhead #search7 a:after,
+    #overhead #search7 input[name=q],
+    #overhead a,
+    #oh-menu-split>a>.icon,
+    div.drawPlzContainer a.mi, #overhead .mi, #oh-mainmenu-cloned .mi, div.commentwriter-toolbar .mi, a.surfer.oh-m-surfer,
+    #navbar-menu .navbar-menu-item,
+    #browse-sidemenu ul li a,
+    body.gruze .bubbleview h1, body.gruze .bubbleview h2, body.gruze .bubbleview h3, body.gruze .bubbleview h4, body.gruze .bubbleview h1 a, body.gruze .bubbleview h2 a, body.gruze .bubbleview h3 a, body.gruze .bubbleview h4 a,
+    a.u:not(.banned), body.gruze a.u:not(.banned), .mcb-title a:not(.external), .mcb-line a:not(.external), .mcb-body a:not(.external), .mcb-modhtml a:not(.external), .popup2-mcbox-comment a:not(.external):not(.thumb), .text a:not(.external),
+    div.mcbox div.mcb-commentcount a
+    {color: #eee;}
+    
+    #deviantart-logo .mark .wikistick
+    {fill: #fff;}
+    
+    #overhead #search7 input[name=q],
+    .browse-search-container
+    {box-shadow: none;}
+    
+    div.mcbox span.mcx, div.mcbox span.mcdx,
+    body.gruze a.gmbutton
+    {filter: grayscale(100);}
+    
+    .mcbox-preview-critique .ch-ctrl, .mcbox-preview-journal .ch-ctrl, .mbcox-preview-contest .ch-ctrl, .mcbox-preview-forum .ch-ctrl, .mcbox-preview-stack .ch-ctrl, .mcbox-full-stack .ch-ctrl, .mcbox-thumb .ch-ctrl
+    {background-image: none;}
+}

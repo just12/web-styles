@@ -1,13 +1,20 @@
-@-moz-document url-prefix("https://www.tumblr.com/"), url-prefix("https://www.youtube.com"), url-prefix("https://boards.4chan.org/"), url-prefix("https://www.reddit.com/"), url-prefix("https://hooktube.com/") {
+@-moz-document url-prefix("https://www.tumblr.com/"), url-prefix("https://www.youtube.com"), url-prefix("https://boards.4chan.org/"), url-prefix("https://www.reddit.com/"), url-prefix("https://hooktube.com/"), url-prefix("https://twitter.com/") {
 ::-webkit-scrollbar,::-webkit-scrollbar-button, ::-webkit-scrollbar-track, ::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-thumb, ::-webkit-scrollbar-corner, ::-webkit-resizer{display: none;}
 }
 
+::-webkit-scrollbar{
+    background-color: rgba(0,0,0,.2);
+    width: 7px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(255,255,255,.7);
+    border-radius: 100px;
+}
+
 /*
-::-webkit-scrollbar{}
+::-webkit-scrollbar-corner{}
+::-webkit-resizer{}
 ::-webkit-scrollbar-button{}
 ::-webkit-scrollbar-track{}
 ::-webkit-scrollbar-track-piece{}
-::-webkit-scrollbar-thumb{}
-::-webkit-scrollbar-corner{}
-::-webkit-resizer{}
 */

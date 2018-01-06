@@ -4,6 +4,9 @@ Custom styles for various webs.
 ### 4chan
 ![alt text](https://github.com/just12/web-styles/raw/master/4chan/4chan.png)
 
+### deviantart
+![alt text](https://github.com/just12/web-styles/raw/master/deviantart/deviantart.png)
+
 ### discord
 ![alt text](https://github.com/just12/web-styles/raw/master/discord/discord.png)
 

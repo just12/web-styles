@@ -14,8 +14,11 @@ body,
 .MomentCapsuleSummary--hero:hover, .MomentCapsuleSummary--portrait:hover,
 .EdgeButton--primary, .EdgeButton--primary:focus,
 .TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--chart,
-.tooltip-inner
-{background-color: #020202 !important;}
+.tooltip-inner,
+.modal-header,
+.modal-content,
+.modal .modal-tweet
+{background-color: #111 !important;}
 
 .TwitterCardsGrid.TwitterCard.TwitterCard--animation,
 .global-nav-inner,
@@ -70,7 +73,8 @@ a, .btn-link, .btn-link:focus, .icon-btn, .pretty-link b, .pretty-link:hover s, 
 .ProfileHeaderCard-birthdateText, .ProfileHeaderCard-joinDateText, .ProfileHeaderCard-locationText, .ProfileHeaderCard-onlineHoursText, .ProfileHeaderCard-responsivenessLevelText, .ProfileHeaderCard-urlText, .ProfileHeaderCard-vineProfileText, .ProfileHeaderCard-periscopeProfileText,
 .ProfileHeading-toggleItem.is-active, .ProfileHeading-toggleItem.is-active:hover, .ProfileHeading-toggleItem.is-active:focus,
 .ProfileCard .ProfileCard-screennameLink, .ProfileCard .ProfileCard-screennameLink:hover, .ProfileCard .ProfileCard-screennameLink:focus,
-.bio.profile-field.u-dir a
+.bio.profile-field.u-dir a,
+.FullNameGroup
 {color: #eee !important;}
 
 .ProfileCardStats-statLabel,
@@ -93,7 +97,8 @@ a, .btn-link, .btn-link:focus, .icon-btn, .pretty-link b, .pretty-link:hover s, 
 .ActivityItem-activityTimestamp,
 .TwitterCard .SummaryCard-destination,
 .bio.profile-field.u-dir,
-.ThreadedConversation--header
+.ThreadedConversation--header,
+.modal-header .modal-title
 {color: #999 !important;}
 
 #global-actions > li > a,
@@ -120,7 +125,8 @@ a, .btn-link, .btn-link:focus, .icon-btn, .pretty-link b, .pretty-link:hover s, 
 .permalink .stats .avatar-row a:first-child,
 .tweet, .stream-item:not(.no-header-background-module), .top-timeline-tweetbox .timeline-tweet-box, .stream-end-item, .stream-end, .stream-loading, .stream-placeholder,
 .ThreadedConversation, .ThreadedConversation-moreReplies:after,
-.ProfileHeading-content
+.ProfileHeading-content,
+.modal-header
 {border-color: #111 !important;}
 
 .DashboardProfileCard,

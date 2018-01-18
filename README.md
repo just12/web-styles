@@ -19,6 +19,9 @@ Custom styles for various webs.
 ### kissmanga
 ![alt text](https://github.com/just12/web-styles/raw/master/kissmanga/kissmanga.png)
 
+### mangadex
+![alt text](https://github.com/just12/web-styles/raw/master/mangadex/mangadex.png)
+
 ### reddit
 ![alt text](https://github.com/just12/web-styles/raw/master/reddit/reddit.png)
 

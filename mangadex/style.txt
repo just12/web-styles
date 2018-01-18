@@ -1,0 +1,115 @@
+/* ==UserStyle==
+@name           Custom mangadex
+@namespace      https://github.com/just12/web-styles
+@version        0.1.0
+@description    I dont like those gradients
+@author         just12
+==/UserStyle== */
+@-moz-document url-prefix("https://mangadex.com/") {
+    footer
+    {display:none;}
+    
+    *{outline: none !important;}
+    
+    .btn .btn-info,
+    .btn .btn-success,
+    .btn-danger
+    {border: 0px solid #000 !important;}
+    
+    .btn .btn-info,
+    .btn .btn-success
+    {border: none !important;}
+    
+    .navbar-default .navbar-nav > li > a:hover
+    {background-image: linear-gradient(#111 0%, #111 100%);}
+    
+    .navbar-default
+    {background-image: linear-gradient(#222 0%, #222 100%);}
+    
+    .btn-default
+    {background-image: linear-gradient(#333 0%, #333 100%);}
+    
+    .btn-default:hover
+    {background-image: linear-gradient(#444 0%, #444 100%);}
+    
+    .btn-danger
+    {background-image: linear-gradient(#f22, #f22);}
+    
+    .btn-info
+    {background-image: linear-gradient(#22ABFF, #22ABFF);}
+    
+    .btn-success
+    {background-image: linear-gradient(#3aa61c, #3aa61c);}
+    
+    .btn-success:hover
+    {background-image: linear-gradient(#269808, #269808);}
+    
+	body,
+    .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default
+    {background-color: #111 !important;}
+    
+    .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus,
+    .table-responsive > .table,
+    .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus,
+    .panel-default > .panel-heading,
+    .label-default
+    {background-color: #222;}
+    
+    .nav > li > a:hover, .nav > li > a:focus,
+    .table-striped > tbody > tr:nth-of-type(odd),
+    table.table.table-condensed.edit,
+    table
+    {background-color: #333;}
+    
+    .table-hover > tbody > tr:hover,
+    .dropdown-menu,
+    .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus,
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus
+    {background-color: #444;}
+    
+    .badge
+    {background-color: #999;}
+    
+    .label-danger
+    {background-color: #f22;}
+    
+   
+    .alert-warning {
+    color: #fff;
+    background-color: #d8a30e;
+    border-color: #d8a30e;
+	}
+    
+    .text-info, .text-info:hover
+    {color: #22ABFF;}
+    
+    .text-success, .text-success:hover
+    {color: #5EE239;}
+}
+
+/*
+@-moz-document url("https://mangadex.com/") {
+    div#content div:nth-child(2) table tbody tr td:nth-child(3){display: none;}
+
+ul.nav.nav-tabs li a img{
+		display: block;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 24px;
+        height: 28px;
+        padding-left: 24px;
+	}
+    
+    ul.nav.nav-tabs li:nth-child(2) a img{background: url(https://discordapp.com/assets/6c2b2176dab23f4abaceb3bf23338483.svg) no-repeat;}
+    
+    ul.nav.nav-tabs li:nth-child(3) a img{background: url(https://discordapp.com/assets/f740368e08d0e77f34546769b88d7ca6.svg) no-repeat;}
+    
+    ul.nav.nav-tabs li:nth-child(4) a img{background: url(https://discordapp.com/assets/e4b276d04927069a7cc48cc3d10d3468.svg) no-repeat;}
+    
+    ul.nav.nav-tabs li:nth-child(5) a img{background: url(https://discordapp.com/assets/d7911bd31655d985542bb6830922ac24.svg) no-repeat;}
+    
+    ul.nav.nav-tabs li:nth-child(6) a img{background: url(https://discordapp.com/assets/5e0529582f11d6d30e74ed3a28ac486e.svg) no-repeat;}
+    
+    ul.nav.nav-tabs li:nth-child(7) a img{background: url(https://discordapp.com/assets/57c4dc5e07d9b43166ef75f7b2a3564b.svg) no-repeat;}
+}
+*/

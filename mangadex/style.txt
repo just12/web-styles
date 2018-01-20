@@ -13,7 +13,8 @@
     
     .btn .btn-info,
     .btn .btn-success,
-    .btn-danger
+    .btn-danger,
+    .btn-warning
     {border: 0px solid #000 !important;}
     
     .btn .btn-info,
@@ -35,14 +36,26 @@
     .btn-danger
     {background-image: linear-gradient(#f22, #f22);}
     
+    .btn-danger:hover
+    {background-image: linear-gradient(#ff4b4b, #ff4b4b);}
+    
     .btn-info
     {background-image: linear-gradient(#22ABFF, #22ABFF);}
+    
+    .btn-info:hover
+    {background-image: linear-gradient(#4dbbff, #4dbbff);}
     
     .btn-success
     {background-image: linear-gradient(#3aa61c, #3aa61c);}
     
     .btn-success:hover
-    {background-image: linear-gradient(#269808, #269808);}
+    {background-image: linear-gradient(#56ac3d, #56ac3d);}
+    
+    .btn-warning
+    {background-image: linear-gradient(#d8a30e, #d8a30e);}
+    
+    .btn-warning:hover
+    {background-image: linear-gradient(#eebb2c, #eebb2c);}
     
 	body,
     .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default
@@ -58,7 +71,8 @@
     .nav > li > a:hover, .nav > li > a:focus,
     .table-striped > tbody > tr:nth-of-type(odd),
     table.table.table-condensed.edit,
-    table
+    table,
+    .panel
     {background-color: #333;}
     
     .table-hover > tbody > tr:hover,

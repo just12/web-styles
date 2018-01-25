@@ -51,7 +51,8 @@ div#sections,
 ytd-browse,
 button#search-icon-legacy,
 ytd-watch,
-body,html
+body,html,
+div.ytd-app
 {background-color: #000 !important;}
 
 ytd-playlist-sidebar-renderer,

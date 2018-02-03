@@ -21,13 +21,19 @@
     .btn .btn-success
     {border: none !important;}
     
+    .pagination > li.active > a, .pagination > li.active > span
+    {background-image: linear-gradient(#080808 0%, #080808 100%);}
+    
     .navbar-default .navbar-nav > li > a:hover
     {background-image: linear-gradient(#111 0%, #111 100%);}
     
-    .navbar-default
+    .navbar-default,
+    .pagination > li > a:hover, .pagination > li > span:hover
     {background-image: linear-gradient(#222 0%, #222 100%);}
     
-    .btn-default
+    .btn-default,
+    .pagination > li.disabled > a, .pagination > li.disabled > a:hover, .pagination > li.disabled > span, .pagination > li.disabled > span:hover,
+    .pagination > li > a, .pagination > li > span
     {background-image: linear-gradient(#333 0%, #333 100%);}
     
     .btn-default:hover
@@ -101,17 +107,16 @@
     {color: #5EE239;}
 }
 
+	textarea,
+	.pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus
+	{color: #999;}
+
 /*
 @-moz-document url("https://mangadex.com/") {
-    div#content div:nth-child(2) table tbody tr td:nth-child(3){display: none;}
-
-ul.nav.nav-tabs li a img{
-		display: block;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-        width: 24px;
-        height: 28px;
-        padding-left: 24px;
+	.nav li a img{
+        position: absolute;
+        width: 24px !important;
+        height: 24px !important;
 	}
     
     ul.nav.nav-tabs li:nth-child(2) a img{background: url(https://discordapp.com/assets/6c2b2176dab23f4abaceb3bf23338483.svg) no-repeat;}

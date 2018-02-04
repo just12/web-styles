@@ -1,3 +1,10 @@
+/* ==UserStyle==
+@name           Custom reddit
+@namespace      https://github.com/just12/web-styles
+@version        0.1.0
+@description    Custom style
+@author         just12
+==/UserStyle== */
 @-moz-document url("https://www.reddit.com/"), url-prefix("https://www.reddit.com/?count=") {
 .footer-parent, p.debuginfo, .create, .goldvertisement, .sidecontentbox, #sr-header-area, a#header-img.default-header, .trending-subreddits, #header-img, .listing-chooser, section.infobar.listingsignupbar, .sidebox{display: none !important;}
 }

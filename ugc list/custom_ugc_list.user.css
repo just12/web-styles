@@ -1,3 +1,10 @@
+/* ==UserStyle==
+@name           Custom ugc list
+@namespace      https://github.com/just12/web-styles
+@version        0.1.0
+@description    Custom style
+@author         just12
+==/UserStyle== */
 @-moz-document url("http://stats.ugc-gaming.net/tf/hlstats.php?game=tfcustom") {
 div.block:nth-child(1), span.fHeading, ul.navbar, div.subblock table.data-table:nth-child(3), #footer, div.fSmall, tr.data-table-head:nth-child(1), tr.data-table-head:nth-child(2), img{display: none;}
 

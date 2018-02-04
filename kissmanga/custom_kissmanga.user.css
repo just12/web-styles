@@ -1,3 +1,10 @@
+/* ==UserStyle==
+@name           Custom kissmanga
+@namespace      https://github.com/just12/web-styles
+@version        0.1.0
+@description    Custom style
+@author         just12
+==/UserStyle== */
 @-moz-document url-prefix("http://kissmanga.com/"), url-prefix("https://kissmanga.com/") {
 div.bigBarContainer:nth-child(7), div#footer, #liComic, #liReport, #liRequest, #liFlappy, #liGame, #liAnimeOnline, #liCommunity, #formSearch div:nth-child(3), div.barContent.chapterList div:nth-child(2) div:nth-child(1), div.barContent.chapterList div:nth-child(2) div:nth-child(2), div.barContent.chapterList div:nth-child(2) div:nth-child(3), 
 div.barContent.chapterList div:nth-child(2) div:nth-child(4), div.barContent.chapterList div:nth-child(2) div:nth-child(5), a.logo, div#rightside div:nth-child(3), div.rightBox:nth-child(5), div.divCloseBut{display: none !important;}

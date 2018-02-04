@@ -1,3 +1,10 @@
+/* ==UserStyle==
+@name           Custom scrollbars
+@namespace      https://github.com/just12/web-styles
+@version        0.1.0
+@description    Custom style
+@author         just12
+==/UserStyle== */
 @-moz-document url-prefix("https://www.tumblr.com/"), url-prefix("https://www.youtube.com"), url-prefix("https://boards.4chan.org/"), url-prefix("https://www.reddit.com/"), url-prefix("https://hooktube.com/"), url-prefix("https://twitter.com/") {
 ::-webkit-scrollbar,::-webkit-scrollbar-button, ::-webkit-scrollbar-track, ::-webkit-scrollbar-track-piece, ::-webkit-scrollbar-thumb, ::-webkit-scrollbar-corner, ::-webkit-resizer{display: none;}
 }

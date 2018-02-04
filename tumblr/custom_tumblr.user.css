@@ -1,3 +1,11 @@
+/* ==UserStyle==
+@name           Custom tumblr
+@namespace      https://github.com/just12/web-styles
+@version        0.1.0
+@description    Custom style
+@author         just12
+==/UserStyle== */
+@-moz-document url("https://www.tumblr.com/dashboard") {
 div#right_column,
 ul.sidebar_nav
 {display:none;}
@@ -104,3 +112,4 @@ li.post_container,
 
 .ui_dialog .buttons .tab_frame.focus .ui_button, .ui_dialog .ui_button:focus
 {animation: none;}
+}

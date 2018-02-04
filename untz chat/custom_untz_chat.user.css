@@ -1,0 +1,10 @@
+/* ==UserStyle==
+@name           Custom untz chat
+@namespace      https://github.com/just12/web-styles
+@version        0.1.0
+@description    Custom style
+@author         just12
+==/UserStyle== */
+@-moz-document url("http://untzti.me/chat.html"), url("https://kiwiirc.com/client?settings=5f7ff90fe655abb1a1f1b10440184afd") {
+#kiwi{background-color: #000;}
+}

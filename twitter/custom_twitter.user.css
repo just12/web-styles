@@ -1,3 +1,10 @@
+/* ==UserStyle==
+@name           Custom twitter
+@namespace      https://github.com/just12/web-styles
+@version        0.1.0
+@description    Custom style
+@author         just12
+==/UserStyle== */
 @-moz-document url-prefix("https://twitter.com/") {
 div.module.Trends.trends, div.flex-module{display:none;}
 }

@@ -2,10 +2,10 @@
 @name           Custom tumblr
 @namespace      https://github.com/just12/web-styles
 @version        0.1.0
-@description    Custom style
+@description    A new userstyle
 @author         just12
 ==/UserStyle== */
-@-moz-document url("https://www.tumblr.com/dashboard") {
+@-moz-document url-prefix("https://www.tumblr.com/dashboard"), url-prefix("https://www.tumblr.com/reblog") {
 div#right_column,
 ul.sidebar_nav
 {display:none;}
@@ -25,8 +25,7 @@ div#left_column{position: absolute;left: 50%;transform: translate(-50%);backgrou
 .v-center-outer,
 div.post-container-inner.post,
 .editor-slot,
-div.ui_dialog_pos,
-.toastr .toast
+div.ui_dialog_pos
 {background-color: #000;}
 
 .l-header-container--refresh
@@ -62,9 +61,7 @@ a, body,
 {color: #222 !important;}
 
 .post.post_full,
-div.post-container-inner.post,
-li.post_container,
-.toastr .toast
+div.post-container-inner.post
 {box-shadow: 0px 0px 0px 1px #222;}
 
 .post-composer_note-post .note_item, .post_full.is_note .post-body .note_item, .post_full.is_note .post_body .note_item,

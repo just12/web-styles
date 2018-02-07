@@ -1,0 +1,143 @@
+/* ==UserStyle==
+@name           Custom tumblr
+@namespace      https://github.com/just12/web-styles
+@version        0.1.0
+@description    Custom style
+@author         just12
+==/UserStyle== */
+@-moz-document url("https://www.tumblr.com/dashboard"), url-prefix("https://www.tumblr.com/reblog/") {
+div#right_column,
+ul.sidebar_nav,
+#posts.posts>li.notification.single_notification
+{display:none;}
+
+div#left_column{position: absolute;left: 50%;transform: translate(-50%);background-color: transparent !important;}
+
+.post_avatar,
+.post_avatar_link,
+.post.post_full{border-radius: 0px !important;background: #eee;}
+
+.post_avatar,
+.post_avatar_link{border-radius: 0% !important;background-color: transparent !important;}
+
+.messaging-inbox .inbox-conversations .inbox-conversation:hover,
+.ui_notes .date_header, .ui_notes .date_header.date_activity,
+.blog-activity .blog-activity-more
+{background-color: #111;}
+
+.identity,
+.post_avatar, .post_avatar_link, .post.post_full,
+.post .post-source-footer,
+.v-center-outer,
+div.post-container-inner.post,
+.editor-slot,
+div.ui_dialog_pos,
+.toastr .toast,
+.popover_gradient>.popover_inner,
+.popover--account-popover .popover .popover_menu_item_blog.popover_menu_item_blog,
+.popover_header,
+.popover--inbox-popover .popover-inner,
+.flag--messaging-new-empty-inbox .messaging-inbox .inbox-conversations .inbox-recipients, .messaging-inbox .flag--messaging-new-empty-inbox .inbox-conversations .inbox-recipients,
+.messaging-inbox .inbox-recipients h2,
+.post-tab-switching
+{background-color: #000;}
+
+.l-header-container--refresh
+{background-color: #0009;}
+
+.tab-bar-container .tab_notice,
+.tab_notice .tab_notice_value
+{color: #000;}
+
+.post_full .post_header .post_info .post_info_link:first-child,
+.post_full .post_info .post_info_fence .reblog_source .post_info_link,
+a, body,
+.new_post_label i,
+.post-form--header,
+.post-form--header .tumblelog-select .caption,
+.post-form--header .tumblelog-select .icon_arrow_carrot_down
+{color: #fff !important;}
+
+.compose-button
+{fill: #fff;}
+
+.reblog-list-item,
+.reblog-list, .reblog-trail--original-post,
+.post-composer_note-post .note_item, .post_full.is_note .post-body .note_item, .post_full.is_note .post_body .note_item,
+.control-reblog-trail .reblog-list .reblog-list-item:last-child,
+.blog-activity .blog-activity-more,
+.ui_notes .activity-notification+.activity-notification
+{border-color: #222;}
+
+.post_full.is_note .nipple, .post-composer_note-post .nipple
+{border-left: 8px solid #222;}
+
+.post_full .post_footer,
+.post_controls .post_control:before
+{color: #222 !important;}
+
+.post.post_full,
+div.post-container-inner.post,
+li.post_container,
+.toastr .toast,
+.popover--account-popover .popover .popover_inner,
+.popover--inbox-popover .popover-inner,
+.popover--activity-popover .popover .popover_inner
+{box-shadow: 0px 0px 0px 1px #222;}
+
+.post-composer_note-post .note_item, .post_full.is_note .post-body .note_item, .post_full.is_note .post_body .note_item,
+.tx-button,
+.post-form--controls .controls-container .post-form--save-button .split-button .button-area, .post-form--controls .controls-container .post-form--save-button .split-button .dropdown-area,
+.post-form--controls .controls-container .post-form--save-button .split-button,
+.ui_dialog .chrome,
+.ui_notes .activity-notification:hover
+{background-color: #222;}
+
+.reblog_follow_button .follow-text, .worded-follow-button .follow-text,
+.post_controls .post_control.like.liked:before,
+.post_controls .post_control.reblog.reblogged:before,
+.new_post_label:hover i,
+.new_post_label:hover,
+.tab_anchor:hover,
+.post .post_animated_heart, .standalone-ad-container .post_animated_heart
+{color: #f22 !important;}
+
+.tx-button,
+.post-form--controls .controls-container .post-form--save-button .split-button .button-area, .post-form--controls .controls-container .post-form--save-button .split-button .dropdown-area,
+.popover_header,
+.messaging-inbox .inbox-header,
+.messaging-inbox .inbox-recipients .inbox-recipient,
+.messaging-inbox .inbox-recipients h2,
+.messaging-inbox .inbox-conversations .inbox-conversation
+{border-color: #222;}
+
+.post_full .post_permalink,
+.tab-notice--outlined,
+.control-reblog-trail .remove-button,
+.post-form--controls .controls-container .post-form--save-button .split-button .button-area:focus, .post-form--controls .controls-container .post-form--save-button .split-button .dropdown-area:focus
+{border-color: #f22 #f22 transparent transparent;}
+
+.compose-button:hover
+{fill: #f22;}
+
+.selected .tab_notice,
+.reblog-list-item .reblog-avatar.sub-icon-reblog:before,
+.post .dock_video_button,
+.crt-skin-default .vjs-play-progress,
+.control-reblog-trail .remove-button,
+.post-form--controls .controls-container .post-form--save-button .split-button .button-area:focus, .post-form--controls .controls-container .post-form--save-button .split-button .dropdown-area:focus,
+.ui_dialog .chrome.blue
+{background-color: #f22;opacity: 1;}
+
+.post-content-text a, .post .post_body a, .reblog-content a
+{background-image: linear-gradient(180deg,#555 100%,#555 0);}
+
+.rapid-recs-container .rapid-recs
+{background-image: linear-gradient(180deg,#000,#000);}
+
+.ui_dialog .buttons .tab_frame.focus .ui_button, .ui_dialog .ui_button:focus
+{animation: none;}
+
+.ui_peepr_glass
+{background-color: rgba(0, 0, 0, 0.95);}
+}

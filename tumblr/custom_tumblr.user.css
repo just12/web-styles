@@ -5,7 +5,8 @@
 @description    Custom style
 @author         just12
 ==/UserStyle== */
-@-moz-document url("https://www.tumblr.com/dashboard") {div#right_column,
+@-moz-document url("https://www.tumblr.com/dashboard"), url-prefix("https://www.tumblr.com/reblog/") {
+div#right_column,
 ul.sidebar_nav,
 #posts.posts>li.notification.single_notification
 {display:none;}

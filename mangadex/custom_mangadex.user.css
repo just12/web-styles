@@ -113,24 +113,43 @@
 
     input[type="text"]::-webkit-input-placeholder{color: #999;}    input[type="text"]::-moz-placeholder{color: #999;}    input[type="text"]:-ms-input-placeholder{color: #999;}    input[type="text"]:-moz-placeholder{color: #999;}
 
-/*
-@-moz-document url("https://mangadex.com/") {
-    .nav li a img{
-        position: absolute;
-        width: 24px !important;
-        height: 24px !important;
-    }
-    
-    ul.nav.nav-tabs li:nth-child(2) a img{background: url(https://discordapp.com/assets/6c2b2176dab23f4abaceb3bf23338483.svg) no-repeat;}
-    
-    ul.nav.nav-tabs li:nth-child(3) a img{background: url(https://discordapp.com/assets/f740368e08d0e77f34546769b88d7ca6.svg) no-repeat;}
-    
-    ul.nav.nav-tabs li:nth-child(4) a img{background: url(https://discordapp.com/assets/e4b276d04927069a7cc48cc3d10d3468.svg) no-repeat;}
-    
-    ul.nav.nav-tabs li:nth-child(5) a img{background: url(https://discordapp.com/assets/d7911bd31655d985542bb6830922ac24.svg) no-repeat;}
-    
-    ul.nav.nav-tabs li:nth-child(6) a img{background: url(https://discordapp.com/assets/5e0529582f11d6d30e74ed3a28ac486e.svg) no-repeat;}
-    
-    ul.nav.nav-tabs li:nth-child(7) a img{background: url(https://discordapp.com/assets/57c4dc5e07d9b43166ef75f7b2a3564b.svg) no-repeat;}
+img[title="English"],
+img[title="Polish"],
+img[title="Italian"],
+img[title="Russian"],
+img[title="German"],
+img[title="Hungarian"],
+img[title="French"],
+img[title="Vietnamese"],
+img[title="Bulgarian"],
+img[title="Spanish (Spain)"],
+img[title="Portuguese (Brazil)"],
+img[title="Swedish"],
+img[title="Turkish"],
+img[title="Indonesian"],
+img[title="Spanish (LATAM)"]
+/*img[title="Catalan"]*/{
+    box-sizing: border-box;
+    width: 24px;
+    height: 18px;
+    padding-left: 24px;
+    background-size: cover;
+    background-position: center;
 }
-*/
+
+img[title="English"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-united-kingdom_1f1ec-1f1e7.png");}
+img[title="Polish"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-poland_1f1f5-1f1f1.png");}
+img[title="Italian"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-italy_1f1ee-1f1f9.png");}
+img[title="Russian"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-russia_1f1f7-1f1fa.png");}
+img[title="German"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-germany_1f1e9-1f1ea.png");}
+img[title="Hungarian"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-hungary_1f1ed-1f1fa.png");}
+img[title="French"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-france_1f1eb-1f1f7.png");}
+img[title="Vietnamese"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-vietnam_1f1fb-1f1f3.png");}
+img[title="Bulgarian"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-bulgaria_1f1e7-1f1ec.png");}
+img[title="Spanish (Spain)"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-spain_1f1ea-1f1f8.png");}
+img[title="Portuguese (Brazil)"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-brazil_1f1e7-1f1f7.png");}
+img[title="Swedish"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-sweden_1f1f8-1f1ea.png");}
+img[title="Turkish"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-turkey_1f1f9-1f1f7.png");}
+img[title="Indonesian"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-indonesia_1f1ee-1f1e9.png");}
+img[title="Spanish (LATAM)"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-mexico_1f1f2-1f1fd.png");}
+/*img[title="Catalan"]{background-image: url("");}*/

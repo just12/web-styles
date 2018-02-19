@@ -105,8 +105,7 @@
     
     .text-success, .text-success:hover
     {color: #5EE239;}
-}
-
+    
     textarea,
     .pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus
     {color: #999;}
@@ -153,3 +152,4 @@ img[title="Turkish"]{background-image: url("https://emojipedia-us.s3.amazonaws.c
 img[title="Indonesian"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-indonesia_1f1ee-1f1e9.png");}
 img[title="Spanish (LATAM)"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-mexico_1f1f2-1f1fd.png");}
 /*img[title="Catalan"]{background-image: url("");}*/
+}

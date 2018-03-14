@@ -129,7 +129,8 @@ img[title="Indonesian"],
 img[title="Spanish (LATAM)"],
 img[title="Japanese"],
 img[title="Portuguese (Portugal)"],
-img[title="Filipino"]
+img[title="Filipino"],
+img[title="Arabic"]
 /*img[title="Catalan"]*/{
     box-sizing: border-box;
     width: 24px;
@@ -157,5 +158,6 @@ img[title="Spanish (LATAM)"]{background-image: url("https://emojipedia-us.s3.ama
 img[title="Japanese"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/131/flag-for-japan_1f1ef-1f1f5.png");}
 img[title="Filipino"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/131/flag-for-philippines_1f1f5-1f1ed.png");}
 img[title="Portuguese (Portugal)"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/131/flag-for-portugal_1f1f5-1f1f9.png");}
+img[title="Arabic"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/131/flag-for-saudi-arabia_1f1f8-1f1e6.png");}
 /*img[title="Catalan"]{background-image: url("");}*/
 }

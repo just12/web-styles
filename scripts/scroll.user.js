@@ -3,7 +3,7 @@
 // @namespace    https://github.com/just12
 // @version      0.1
 // @author       just12
-// @include      *mangadex.com/chapter/*
+// @include      *mangadex.org/chapter/*
 // @include      http://kissmanga.com/Manga/*
 // ==/UserScript==
 window.onkeydown = function(e){

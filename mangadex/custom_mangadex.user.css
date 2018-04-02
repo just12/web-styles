@@ -21,50 +21,66 @@
     .btn .btn-success
     {border: none !important;}
     
+    .btn,
+    .pagination > li.active > a, .pagination > li.active > span,
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default,
+    .pagination > li > a:hover, .pagination > li > span:hover,
+    .pagination > li.disabled > a, .pagination > li.disabled > a:hover, .pagination > li.disabled > span, .pagination > li.disabled > span:hover,
+    .pagination > li > a, .pagination > li > span
+    {background-image: none !important;}
+    
     .pagination > li.active > a, .pagination > li.active > span
-    {background-image: linear-gradient(#080808 0%, #080808 100%);}
+    {background-color: #080808;}
     
     .navbar-default .navbar-nav > li > a:hover
-    {background-image: linear-gradient(#111 0%, #111 100%);}
+    {background-color: #111;}
     
     .navbar-default,
     .pagination > li > a:hover, .pagination > li > span:hover
-    {background-image: linear-gradient(#222 0%, #222 100%);}
+    {background-color: #222;}
     
     .btn-default,
     .pagination > li.disabled > a, .pagination > li.disabled > a:hover, .pagination > li.disabled > span, .pagination > li.disabled > span:hover,
     .pagination > li > a, .pagination > li > span
-    {background-image: linear-gradient(#333 0%, #333 100%);}
+    {background-color: #333;}
     
     .btn-default:hover
-    {background-image: linear-gradient(#444 0%, #444 100%);}
+    {background-color: #444;}
     
     .btn-danger
-    {background-image: linear-gradient(#f22, #f22);}
+    {background-color: #ff2222;}
     
     .btn-danger:hover
-    {background-image: linear-gradient(#ff4b4b, #ff4b4b);}
+    {background-color: #ff4b4b;}
     
     .btn-info
-    {background-image: linear-gradient(#22ABFF, #22ABFF);}
+    {background-color: #22ABFF;}
     
-    .btn-info:hover
-    {background-image: linear-gradient(#4dbbff, #4dbbff);}
+    .btn-info:hover, .btn-info:hover
+    {background-color: #4dbbff;}
+    
+    .btn-primary
+    {background-color: #0062ff;}
+    
+    .btn-primary:hover, .open > .dropdown-toggle.btn-primary:focus
+    {background-color: #0048bb !important;}
     
     .btn-success
-    {background-image: linear-gradient(#3aa61c, #3aa61c);}
+    {background-color: #3aa61c;}
     
     .btn-success:hover
-    {background-image: linear-gradient(#56ac3d, #56ac3d);}
+    {background-color: #56ac3d;}
     
     .btn-warning
-    {background-image: linear-gradient(#d8a30e, #d8a30e);}
+    {background-color: #d8a30e;}
     
     .btn-warning:hover
-    {background-image: linear-gradient(#eebb2c, #eebb2c);}
+    {background-color: #eebb2c;}
     
     body,
-    .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default
+    .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default,
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus
     {background-color: #111 !important;}
     
     .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus,
@@ -121,15 +137,16 @@ img[title="Hungarian"],
 img[title="French"],
 img[title="Vietnamese"],
 img[title="Bulgarian"],
-img[title="Spanish (Spain)"],
-img[title="Portuguese (Brazil)"],
+img[title="Spanish (Es)"],
+img[title="Portuguese (Br)"],
 img[title="Swedish"],
 img[title="Turkish"],
 img[title="Indonesian"],
 img[title="Spanish (LATAM)"],
 img[title="Japanese"],
-img[title="Portuguese (Portugal)"],
-img[title="Filipino"]
+img[title="Portuguese (Pt)"],
+img[title="Filipino"],
+img[title="Arabic"]
 /*img[title="Catalan"]*/{
     box-sizing: border-box;
     width: 24px;
@@ -148,14 +165,15 @@ img[title="Hungarian"]{background-image: url("https://emojipedia-us.s3.amazonaws
 img[title="French"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-france_1f1eb-1f1f7.png");}
 img[title="Vietnamese"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-vietnam_1f1fb-1f1f3.png");}
 img[title="Bulgarian"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-bulgaria_1f1e7-1f1ec.png");}
-img[title="Spanish (Spain)"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-spain_1f1ea-1f1f8.png");}
-img[title="Portuguese (Brazil)"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-brazil_1f1e7-1f1f7.png");}
+img[title="Spanish (Es)"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-spain_1f1ea-1f1f8.png");}
+img[title="Portuguese (Br)"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-brazil_1f1e7-1f1f7.png");}
 img[title="Swedish"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-sweden_1f1f8-1f1ea.png");}
 img[title="Turkish"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-turkey_1f1f9-1f1f7.png");}
 img[title="Indonesian"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-indonesia_1f1ee-1f1e9.png");}
 img[title="Spanish (LATAM)"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-mexico_1f1f2-1f1fd.png");}
 img[title="Japanese"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/131/flag-for-japan_1f1ef-1f1f5.png");}
 img[title="Filipino"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/131/flag-for-philippines_1f1f5-1f1ed.png");}
-img[title="Portuguese (Portugal)"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/131/flag-for-portugal_1f1f5-1f1f9.png");}
+img[title="Portuguese (Pt)"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/131/flag-for-portugal_1f1f5-1f1f9.png");}
+img[title="Arabic"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/131/flag-for-saudi-arabia_1f1f8-1f1e6.png");}
 /*img[title="Catalan"]{background-image: url("");}*/
 }

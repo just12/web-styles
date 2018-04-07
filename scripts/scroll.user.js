@@ -11,4 +11,6 @@ window.onkeydown = function(e){
     console.log(keyPressed);
     if(keyPressed === 87){window.scrollBy(0,-200);}
     if(keyPressed === 83){window.scrollBy(0,200);}
+    if(keyPressed === 69){window.scrollBy(0,200000);}
+    if(keyPressed === 81){window.scrollBy(0,-200000);}
 };

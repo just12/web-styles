@@ -6,11 +6,13 @@
 // @include      *mangadex.org/chapter/*
 // @include      http://kissmanga.com/Manga/*
 // ==/UserScript==
-window.onkeydown = function(e){
+onkeydown = function(e){
     var keyPressed = e.keyCode;
-    console.log(keyPressed);
-    if(keyPressed === 87){window.scrollBy(0,-200);}
-    if(keyPressed === 83){window.scrollBy(0,200);}
-    if(keyPressed === 69){window.scrollBy(0,200000);}
-    if(keyPressed === 81){window.scrollBy(0,-200000);}
+    //console.log(keyPressed);
+    if(keyPressed === 87){scrollBy({top: -200,left: 0,behavior: 'smooth'});}
+    if(keyPressed === 83){scrollBy({top: 200,left: 0,behavior: 'smooth'});}
+    if(keyPressed === 81){scrollTo({top: 76,left: 0,behavior: 'smooth'});}
+
+    var page = document.getElementById("current_page");
+    if(keyPressed === 69){page.scrollIntoView({behavior: "smooth", block: "end", inline: "end"});}
 };

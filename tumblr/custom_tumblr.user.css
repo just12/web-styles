@@ -46,7 +46,8 @@ div.ui_dialog_pos,
 {background-color: #0009;}
 
 .tab-bar-container .tab_notice,
-.tab_notice .tab_notice_value
+.tab_notice .tab_notice_value,
+ul.conversation_lines li:nth-child(even)
 {color: #000;}
 
 .post_full .post_header .post_info .post_info_link:first-child,

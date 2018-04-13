@@ -21,28 +21,35 @@
     .btn .btn-success
     {border: none !important;}
     
+    .well
+    {border-color: #0d0d0d;}
+    
     .btn,
     .pagination > li.active > a, .pagination > li.active > span,
     .navbar-default .navbar-nav > li > a:hover,
     .navbar-default,
     .pagination > li > a:hover, .pagination > li > span:hover,
     .pagination > li.disabled > a, .pagination > li.disabled > a:hover, .pagination > li.disabled > span, .pagination > li.disabled > span:hover,
-    .pagination > li > a, .pagination > li > span
+    .pagination > li > a, .pagination > li > span,
+    .breadcrumb
     {background-image: none !important;}
     
     .pagination > li.active > a, .pagination > li.active > span
     {background-color: #080808;}
     
-    .navbar-default .navbar-nav > li > a:hover
+    .navbar-default .navbar-nav > li > a:hover,
+    .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus
     {background-color: #111;}
     
     .navbar-default,
-    .pagination > li > a:hover, .pagination > li > span:hover
+    .pagination > li > a:hover, .pagination > li > span:hover,
+    .well
     {background-color: #222;}
     
     .btn-default,
     .pagination > li.disabled > a, .pagination > li.disabled > a:hover, .pagination > li.disabled > span, .pagination > li.disabled > span:hover,
-    .pagination > li > a, .pagination > li > span
+    .pagination > li > a, .pagination > li > span,
+    .breadcrumb
     {background-color: #333;}
     
     .btn-default:hover
@@ -126,7 +133,12 @@
     .pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus
     {color: #999;}
 
-    input[type="text"]::-webkit-input-placeholder{color: #999;}    input[type="text"]::-moz-placeholder{color: #999;}    input[type="text"]:-ms-input-placeholder{color: #999;}    input[type="text"]:-moz-placeholder{color: #999;}
+    input[type="text"]::-webkit-input-placeholder{color: #999;}
+    input[type="text"]::-moz-placeholder{color: #999;}    
+    input[type="text"]:-ms-input-placeholder{color: #999;}    
+    input[type="text"]:-moz-placeholder{color: #999;}
+    
+    textarea.form-control::placeholder{color: #999;}
 
 img[title="English"],
 img[title="Polish"],

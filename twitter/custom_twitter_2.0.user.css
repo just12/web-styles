@@ -1,0 +1,282 @@
+/* ==UserStyle==
+@name           Custom twitter v2
+@namespace      github.com/openstyles/stylus
+@version        0.1.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+
+@-moz-document url-prefix("https://twitter.com/") {
+    body,
+    .u-bgUserColor, .u-bgUserColorHover:hover, .u-bgUserColorHover:focus
+    {background-color: #000 !important;}
+    
+    .ActivityItem:not(.has-clickAction) .QuoteTweet--slim:hover,
+    .ActivityItem.has-clickAction:hover,
+    .DirectMessage--received .DirectMessage-text,
+    .settings-alert,
+    #notifications-optout-all-top,
+    .disabled, .disabled:hover, .disabled:focus, .disabled:active, input[disabled], .t1-select[disabled], textarea[disabled], input[readonly], .t1-select[readonly], textarea[readonly], div[contenteditable="false"], div[contenteditable="true"][readonly],
+    .notifications-prompt-container,
+    .sc-key,
+    #global-tweet-dialog .modal-tweet-form-container, #Tweetstorm-dialog .modal-body,
+    .icon-btn.enabled,
+    #global-tweet-dialog .modal-tweet .tweet:hover, #global-tweet-dialog .modal-tweet .tweet,
+    .ProfileCard-avatarLink,
+    .Tombstone
+    {background-color: #111;}
+    
+    .permalink .stream-end-inner,
+    .EdgeButton--secondary,
+    .DirectMessage--sent .DirectMessage-text,
+    .SignupCallOut,
+    .login-responsive .mobile, .route-resend-password .mobile, .contact-support,
+    .ProfileCard,
+    .hovercard .profile-social-proof
+    {background-color: #181818;}
+    
+    .stream-item:not(.no-header-background-module),
+    .permalink-tweet, .permalink-tweet:hover,
+    .ProfileCanopy-navBar,
+    .ProfileNav-item--userActions,
+    .input-prepend .add-on, .input-append .add-on,
+    .EdgeButton--secondary.disabled, .EdgeButton--secondary[disabled], .EdgeButton--secondary[disabled]:hover, .EdgeButton--secondary[aria-disabled=true],
+    .permalink,
+    .PermalinkOverlay-spinnerContainer,
+    .stream-item:not(.no-header-background-module), .permalink-tweet, .permalink-tweet:hover, .ProfileCanopy-navBar, .ProfileNav-item--userActions, .input-prepend .add-on, .input-append .add-on, .EdgeButton--secondary.disabled, .EdgeButton--secondary[disabled], .EdgeButton--secondary[disabled]:hover, .EdgeButton--secondary[aria-disabled=true], .permalink, .PermalinkOverlay-spinnerContainer,
+    .permalink .inline-reply-tweetbox-container,
+    .TwitterCard,
+    .ThreadedConversation-moreReplies,
+    #stream-items-id > li.ThreadedConversation-showMoreThreads > button
+    {background-color: #1c1c1c !important;}
+    
+    .DashboardProfileCard,
+    .global-nav-inner,
+    .DashboardProfileCard-avatarLink,
+    input, textarea, div[contenteditable], .t1-select,
+    .new-tweets-bar,
+    .tweet:hover,
+    .dropdown-menu,
+    .permalink .inline-reply-tweetbox,
+    .EdgeButton--secondary:hover, .EdgeButton--secondary:active,
+    .DMActivity-header,
+    .DMActivity-body,
+    .module .list-link,
+    .content-header .header-inner,
+    .content-inner,
+    .find-friends-sources,
+    .find-friends-top-subheader, .find-friends-bottom-subheader,
+    .stream-end-inner,
+    .modal-content,
+    .MutedKeywordsFooter,
+    .modal-header,
+    .PollingCardComposer,
+    .icon-btn.enabled:hover,
+    .message,
+    .login-responsive .page-canvas,
+    .modal .modal-tweet,
+    .AdaptiveFiltersBar,
+    .SidebarFilterModule
+    {background-color: #222;}
+    
+    .DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:hover, .DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:focus, .DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:active
+    {background-color: #222 !important;}
+    
+    .RichEditor{background: #222;}
+    
+    .home-tweet-box, .LiveVideo-tweetBox, .RetweetDialog-commentBox,
+    .global-nav .search-input,
+    .EdgeButton--primary, .EdgeButton--primary:focus,
+    .ProfileHeading-content,
+    .NotificationsHeadingContent,
+    .DMInboxItem.is-unread,
+    .u-bgUserColorLightest,
+    .module .list-link:hover, .module .active .list-link,
+    .EdgeButton--tertiary,
+    .conversation-module .conversation-tweet-item .tweet:hover
+    {background-color: #333 !important;}
+    
+    .EdgeButton--primary:hover, .EdgeButton--primary:active,
+    .new-tweets-bar:hover,
+    .dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-menu .dropdown-link:hover, .dropdown-menu .dropdown-link:focus, .dropdown-menu .dropdown-link.is-focused, .dropdown-menu li:hover .dropdown-link, .dropdown-menu li:focus .dropdown-link, .dropdown-menu .selected a, .dropdown-menu .dropdown-link.selected,
+    .DMInboxItem:hover,
+    .TwitterCard[data-theme=night-mode] .PollXChoice-choice--chart
+    {background-color: #444 !important;}
+    
+    .EdgeButton--danger,
+    .EdgeButton--danger:hover,
+    .TwitterCard[data-theme=night-mode] .PollXChoice[data-poll-vote-majority="1"] .PollXChoice-optionContainer[data-poll-index="1"] .PollXChoice-choice--chart, .TwitterCard[data-theme=night-mode] .PollXChoice[data-poll-vote-majority="2"] .PollXChoice-optionContainer[data-poll-index="2"] .PollXChoice-choice--chart, .TwitterCard[data-theme=night-mode] .PollXChoice[data-poll-vote-majority="3"] .PollXChoice-optionContainer[data-poll-index="3"] .PollXChoice-choice--chart, .TwitterCard[data-theme=night-mode] .PollXChoice[data-poll-vote-majority="4"] .PollXChoice-optionContainer[data-poll-index="4"] .PollXChoice-choice--chart,
+    .global-nav .people .count .count-inner
+    {background-color: #f22;}
+    
+    .TwitterCard[data-theme=night-mode] .PollXChoice[data-poll-vote-majority="1"] .PollXChoice-optionContainer[data-poll-index="1"] .PollXChoice-choice--chart, .TwitterCard[data-theme=night-mode] .PollXChoice[data-poll-vote-majority="2"] .PollXChoice-optionContainer[data-poll-index="2"] .PollXChoice-choice--chart, .TwitterCard[data-theme=night-mode] .PollXChoice[data-poll-vote-majority="3"] .PollXChoice-optionContainer[data-poll-index="3"] .PollXChoice-choice--chart, .TwitterCard[data-theme=night-mode] .PollXChoice[data-poll-vote-majority="4"] .PollXChoice-optionContainer[data-poll-index="4"] .PollXChoice-choice--chart
+    {background-color: #f22 !important;}
+    
+    .Gallery-content .GalleryTweet .tweet .content .stream-item-footer,
+    .Gallery-media
+    {background-color: #222 !important;}
+    
+    .TwitterCard[data-theme=night-mode] .TwitterCard-container--clickable:hover,
+    .DMInboxItem,
+    .content-inner,
+    .input-prepend .add-on, .input-append .add-on,
+    #notifications-optout-all-top,
+    .disabled, .disabled:hover, .disabled:focus, .disabled:active, input[disabled], .t1-select[disabled], textarea[disabled], input[readonly], .t1-select[readonly], textarea[readonly], div[contenteditable="false"], div[contenteditable="true"][readonly],
+    .notifications-prompt-container,
+    .MutedKeywordsFooter,
+    #global-tweet-dialog .modal-header, #Tweetstorm-dialog .modal-header
+    {border-color: #000;}
+    
+    .ProfileCard,
+    .ThreadedConversation, .ThreadedConversation-moreReplies:after
+    {border-color: #181818;}
+    
+    .DashboardProfileCard,
+    .RichEditor, .TweetBoxAttachments,
+    .new-tweets-bar,
+    .ProfileAvatar,
+    .sc-key,
+    .PollingCardComposer .PollingCardComposer-pollDuration,
+    
+    #stream-items-id > li.ThreadedConversation-showMoreThreads > button,
+    .SidebarFilterModule
+    {border-color: #222;}
+    
+    .dropdown-caret .caret-inner{border-bottom-color: #222;}
+    
+    .global-nav .search-input,
+    .EdgeButton--primary
+    {border-color: #333;}
+    
+    .EdgeButton--primary:hover, .EdgeButton--primary:active,
+    .new-tweets-bar:hover,
+    .u-borderUserColorLighter,
+    .TwitterCard .EdgeButton--secondary
+    {border-color: #444 !important;}
+    
+    #global-actions > li > a,
+    .vellip, .vellip:before, .vellip:after, .conversation-module > li:after, .conversation-module > li:before, .ThreadedConversation--loneTweet:after, .ThreadedConversation-tweet:not(.is-hiddenAncestor) ~ .ThreadedConversation-tweet:before, .ThreadedConversation-tweet:after, .ThreadedConversation-moreReplies:before, .ThreadedConversation-viewOther:before, .ThreadedConversation-unavailableTweet:before, .ThreadedConversation-unavailableTweet:after, .ThreadedConversation--permalinkTweetWithAncestors:before, .mini-avatar-with-thread:before, .permalink.self-thread-permalink-with-descendant .permalink-tweet-container:after, .permalink.self-thread-permalink-with-descendant .inline-reply-tweetbox-container:after,
+    .EdgeButton--secondary, .EdgeButton--secondary:hover, .EdgeButton--secondary:focus, .EdgeButton--secondary:active,
+    .EdgeButton--danger,
+    .EdgeButton--danger:hover,
+    .EdgeButton--invertedDanger,
+    .tweet-box textarea:focus, .tweet-box input[type=text], .currently-dragging .tweet-form.is-droppable .tweet-drag-help, .tweet-box[contenteditable="true"]:focus, .RichEditor.is-fakeFocus, .RichEditor.is-fakeFocus ~ .TweetBoxAttachments,
+    .icon-btn.enabled,
+    .Tombstone
+    {border-color: #f22;}
+    
+    .u-borderUserColor, .u-borderUserColorHover:hover, .u-borderUserColorHover:focus,
+    .u-borderUserColorLight, .u-borderUserColorLightFocus:focus, .u-borderUserColorLightHover:hover, .u-borderUserColorLightHover:focus
+    {border-color: #f22 !important;}
+    
+    .QuoteTweet:hover, .QuoteTweet:active,
+    .EdgeButton--tertiary,
+    .TwitterCard .PollXChoice-optionContainer .PollXChoice-choice--radio
+    {border-color: #aaa;}
+    
+    .global-nav .search-icon .Icon,
+    .ProfileCardStats-statLabel,
+    .account-group .username, .time, .time a, .created-via,
+    .with-icn,
+    .tweet>.context .with-icn .Icon,
+    .btn-link.translate-button .Icon--translator,
+    .ProfileTweet-actionCount,
+    .ProfileTweet-actionButton, .ProfileTweet-actionButtonUndo,
+    .tweet .time,
+    .media-tagging-block,
+    .TwitterCard[data-theme=night-mode] .SummaryCard-destination,
+    .ReplyingToContextBelowAuthor,
+    .dropdown-menu li>a, .dropdown-menu .dropdown-link,
+    .DashUserDropdown.dropdown-menu li .Icon,
+    .DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink .name, .DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:hover .name, .DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:focus .name, .DashUserDropdown.dropdown-menu .DashUserDropdown-userInfoLink:active .name,
+    .permalink .stream-end .Icon--logo,
+    .metadata, .metadata button.btn-link, .metadata a,
+    .ProfileNav-item.is-active .ProfileNav-label, .ProfileNav-item.is-active:hover .ProfileNav-label,
+    .ProfileNav-label, .ProfileNav-value,
+    .ProfileHeaderCard-birthdateText, .ProfileHeaderCard-joinDateText, .ProfileHeaderCard-locationText, .ProfileHeaderCard-onlineHoursText, .ProfileHeaderCard-responsivenessLevelText, .ProfileHeaderCard-urlText, .ProfileHeaderCard-periscopeProfileText,
+    .ProfileHeaderCard-birthdate, .ProfileHeaderCard-joinDate, .ProfileHeaderCard-location, .ProfileHeaderCard-onlineHours, .ProfileHeaderCard-responsivenessLevel, .ProfileHeaderCard-url, .ProfileHeaderCard-periscopeProfile,
+    .ProfileUserList-heading,
+    .PhotoRail-heading,
+    .ActivityItem-activityTimestamp,
+    .self-thread-context,
+    .ActivityItem-dismissMenu,
+    .DMActivity-header,
+    .DMInboxItem-snippet,
+    .DMInboxItem-timestamp,
+    .DirectMessage-footer,
+    .Icon--smiley, .EmojiPicker-trigger,
+    .DirectMessage-actions,
+    .t1-infotext,
+    h3,
+    .content-header .subheader,
+    h4.find-friends-top-subheader, h4.find-friends-bottom-subheader,
+    .fine-print,
+    .MutedKeywordsFooter-emptyMessage,
+    .btn,
+    .UserActions .user-dropdown-icon,
+    .app .description,
+    .app .creator, .app .creator a,
+    .muted,
+    .ProfileNav-dropdownCaret,
+    .sc-key,
+    .keyboard-shortcuts .modal-table .shortcut-label,
+    .modal-close .Icon--close,
+    .PollingCardComposer .PollingCardComposer-pollDuration,
+    .TwitterCard .MomentCard-description p,
+    .TwitterCard .MomentCard-subtitle,
+    .TwitterCard .MomentCard-badge,
+    .tweet-form .reply-users,
+    .SignupCallOut-subheader,
+    .message .message-text,
+    .login-responsive .mobile, .route-resend-password .mobile, .contact-support,
+    .ProfileClusterFollow-title,
+    .TwitterCard .PollXChoice-footer,
+    .tweet-form.condensed .tweet-box,
+    a.account-group:hover .username, a.account-group:focus .username, a.account-summary:focus .username,
+    .hovercard.profile-card .profile-card-listName,
+    .tweet-form.condensed div.rich-editor.is-showPlaceholder:before, .tweet-form.condensed div.rich-editor:empty:before,
+    .Tombstone
+    {color: #888;}
+
+    .search-input::placeholder
+    {color: #888 !important;}
+    
+    .bird-topbar-etched,
+    .EdgeButton--tertiary
+    {color: #fff;}
+    
+    a, .btn-link, .btn-link:focus, .icon-btn, .pretty-link b, .pretty-link:hover s, .pretty-link:hover b, .pretty-link:focus s, .pretty-link:focus b, .metadata a:hover, .metadata a:focus, a.account-group:hover .fullname, a.account-group:focus .fullname, .account-summary:focus .fullname, .message .message-text a, .message .message-text button, .stats a strong, .plain-btn:hover, .plain-btn:focus, .dropdown.open .user-dropdown.plain-btn, .open > .plain-btn, #global-actions .new:before, .module .list-link:hover, .module .list-link:focus, .stats a:hover, .stats a:hover strong, .stats a:focus, .stats a:focus strong, .find-friends-sources li:hover .source, .stream-item a:hover .fullname, .stream-item a:focus .fullname, .stream-item .view-all-supplements:hover, .stream-item .view-all-supplements:focus, .tweet .time a:hover, .tweet .time a:focus, .tweet .details.with-icn b, .tweet .details.with-icn .Icon, .stream-item:hover .original-tweet .details b, .stream-item .original-tweet.focus .details b, .stream-item.open .original-tweet .details b, .client-and-actions a:hover, .client-and-actions a:focus, .dismiss-btn:hover b, .tweet .context .pretty-link:hover s, .tweet .context .pretty-link:hover b, .tweet .context .pretty-link:focus s, .tweet .context .pretty-link:focus b, .list .username a:hover, .list .username a:focus, .list-membership-container .create-a-list, .list-membership-container .create-a-list:hover, .new-tweets-bar, .card .list-details a:hover, .card .list-details a:focus, .card .card-body:hover .attribution, .card .card-body .attribution:focus,
+    .u-textUserColor, .u-textUserColorHover:hover, .u-textUserColorHover:hover .ProfileTweet-actionCount, .u-textUserColorHover:focus,
+    .top-timeline-tweetbox .timeline-tweet-box .tweet-form.condensed .tweet-box,
+    s, .pretty-link:hover s, .pretty-link:focus s, .stream-item-activity-notification .latest-tweet .tweet-row a:hover s, .stream-item-activity-notification .latest-tweet .tweet-row a:focus s,
+    #global-actions > li:hover > a, #global-actions > li > a:focus, #global-actions > li.active .text, .DashUserDropdown.dropdown-menu .nightmode-toggle .Icon, .nav.right-actions > li > a:hover, .nav.right-actions > li > a:focus,
+    .ProfileTweet-action--favorite:hover .ProfileTweet-actionButton, .ProfileTweet-action--favorite:hover .ProfileTweet-actionCount, .ProfileTweet-action--favorite .ProfileTweet-actionButton:focus, .ProfileTweet-action--favorite .ProfileTweet-actionButton:focus .ProfileTweet-actionCount, .favorited .ProfileTweet-action--favorite .Icon--heart, .favorited .ProfileTweet-action--favorite .ProfileTweet-actionButtonUndo,
+    .EdgeButton--secondary, .EdgeButton--secondary:hover, .EdgeButton--secondary:focus, .EdgeButton--secondary:active,
+    .EdgeButton--invertedDanger:hover,
+    .EdgeButton--invertedDanger,
+    .Icon--verified
+    {color: #f22 !important;}
+    
+    .btn:focus, .btn.focus, .Button:focus, .EmojiPicker-item.is-focused, .EmojiPicker .EmojiCategoryIcon:focus, .EmojiPicker-skinTone:focus + .EmojiPicker-skinToneSwatch, a:focus > img:first-child:last-child, button:focus,
+    .EdgeButton--primary:focus,
+    .EdgeButton--secondary:focus,
+    .tweet-box textarea:focus, .tweet-box input[type=text], .currently-dragging .tweet-form.is-droppable .tweet-drag-help, .tweet-box[contenteditable="true"]:focus, .RichEditor.is-fakeFocus, .RichEditor.is-fakeFocus ~ .TweetBoxAttachments,
+    .PollingCardComposer,
+    input:focus, textarea:focus, div[contenteditable="true"]:focus, div[contenteditable="true"].fake-focus, div[contenteditable="plaintext-only"]:focus, div[contenteditable="plaintext-only"].fake-focus
+    {box-shadow: 0px 0px 0px 0px #000;}
+    
+    .RadialCounter-progressUnderlay
+    {stroke: #ccc;}
+    
+    .RadialCounter--safe
+    {stroke: #f22;}
+    
+    .spinner,
+    .TwitterCard .SummaryCard-image .tcu-imageWrapper,
+    .HeartAnimation
+    {-webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);}
+    
+    .DashboardProfileCard{border-color: #000 !important;}
+}

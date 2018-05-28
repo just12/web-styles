@@ -2,11 +2,13 @@
 @name           Custom horriblesubs
 @namespace      https://github.com/just12/web-styles
 @version        0.1.0
-@description    Custom style
+@description    A new userstyle
 @author         just12
 ==/UserStyle== */
-@-moz-document domain("horriblesubs.info") {
-#menu-item-130418, .msgblk-container.message-blk, #disqus_thread, img#headerimg, #colophon, li#text-24, li#text-8, #text-26{display: none;}
+
+
+@-moz-document url-prefix("http://horriblesubs.info/") {
+    #menu-item-130418, .msgblk-container.message-blk, #disqus_thread, img#headerimg, #colophon, li#text-24, li#text-8, #text-26, #custom_html-2{display: none;}
 
 a.twelvecol.last{
     height: 199.55px;
@@ -38,7 +40,18 @@ h3.widget-title{margin: 0px;padding: 5px;text-align: center;}
 
 h3.widget-title, div.entry-content h2{background-color: #1abc9c;}
 
-div.schedule-today, .textwidget, .announcement, .episodecontainer, .release-info:hover, .res-link a:hover, .rls-label a:hover, .dl-link a:hover, #batch-announcement, .hs-batches{background-color: #374047 !important;}
+#post-5 > div > div,
+#custom_html-2 > div,
+#text-16 > div > div,
+.hs-batches,
+.episodecontainer
+{background-color: #374047 !important;}
+
+#post-5 > div > div > div.latest > div.release-links.sword-art-online-alternative---gun-gale-online-05-480p,
+.release-info:hover,
+.release-links:hover,
+.shows-morebox:hover
+{background-color: #2b343b !important;}
 
 td.schedule-widget-show a, td.schedule-time, h3.widget-title, #main .entry-content h2, .morebox a, .rls-label, .dl-label, .rls-label a, .dl-label a, .rls-label a, .dl-link a, .refreshlink a, .shows-clearlink a, .ind-show a, a, div.series-desc, h1.entry-title, #batch-announcement{color: #fff !important;}
 
@@ -49,5 +62,10 @@ td.schedule-widget-show a, td.schedule-time, h3.widget-title, #main .entry-conte
 .res-link a{color: #FCEB53 !important;}
 .linkless{color: #FCEB53 !important;}
 
-.searchbar{color: #ccc !important;}
+.searchbar,
+.hs-batches
+{color: #ccc !important;}
+
+.res-link a:hover, .rls-label a:hover, .dl-link a:hover
+{background: none;}
 }

@@ -32,7 +32,7 @@ No preview available
 ![alt text](https://github.com/just12/web-styles/raw/master/tumblr/tumblr.png)
 
 ### twitter
-![alt text](https://github.com/just12/web-styles/raw/master/twitter/twitter.png)
+![alt text](https://github.com/just12/web-styles/raw/master/twitter/twitter2.png)
 
 ### ugc chat
 I just uploaded this to have a backup of it. It needs to be updated.

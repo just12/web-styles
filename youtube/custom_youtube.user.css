@@ -1,4 +1,3 @@
-@-moz-document domain("youtube.com") {
 ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-child(4),
 ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-child(5),
 ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-child(6),
@@ -28,7 +27,7 @@ form#search-form.style-scope.ytd-searchbox
     margin: 0px;
 }
 
-ytd-watch[theater] #player.ytd-watch{max-height: calc(100vh - 56px);}
+ytd-watch:not([fullscreen])[theater] #player.ytd-watch {max-height: calc(100vh - 56px);}
 /*.ytp-iv-video-content{height: 100% !important;width: 100% !important;}*/
 
 ytd-searchbox[mode=legacy] #container.ytd-searchbox{
@@ -82,4 +81,3 @@ paper-button.align-by-text.style-scope.ytd-comment-replies-renderer:hover
 span.style-scope.ytd-grid-video-renderer,
 yt-formatted-string.style-scope.ytd-grid-video-renderer.complex-string a
 {color: #444;}
-}

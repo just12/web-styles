@@ -1,3 +1,4 @@
+@-moz-document domain("youtube.com") {
 ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-child(4),
 ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-child(5),
 ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-child(6),
@@ -28,6 +29,10 @@ form#search-form.style-scope.ytd-searchbox
 }
 
 ytd-watch:not([fullscreen])[theater] #player.ytd-watch {max-height: calc(100vh - 56px);}
+
+#player-theater-container{
+    max-height: calc(100vh - 56px) !important;
+}
 /*.ytp-iv-video-content{height: 100% !important;width: 100% !important;}*/
 
 ytd-searchbox[mode=legacy] #container.ytd-searchbox{
@@ -52,7 +57,9 @@ ytd-browse,
 button#search-icon-legacy,
 ytd-watch,
 body,html,
-div.ytd-app
+div.ytd-app,
+ytd-watch-flexy,
+#columns.ytd-watch-flexy
 {background-color: #000 !important;}
 
 ytd-playlist-sidebar-renderer,
@@ -64,20 +71,28 @@ ytd-browse[page-subtype="playlist"] ytd-two-column-browse-results-renderer.ytd-b
 .playlist-items.ytd-playlist-panel-renderer
 {background-color: #0b0b0b;}
 
+ytd-playlist-video-renderer[is-editable]:hover:not(.dragging),
+#card.ytd-miniplayer,
+#endpoint.yt-simple-endpoint.ytd-guide-entry-renderer:hover, #endpoint.yt-simple-endpoint.ytd-guide-entry-renderer:focus, #endpoint.yt-simple-endpoint.ytd-guide-entry-renderer:active
+{background-color: #111;}
+
 ytd-subscribe-button-renderer:not([button-style]) paper-button:not([subscribed]),
 ytd-thumbnail-overlay-resume-playback-renderer,
 #progress.ytd-thumbnail-overlay-resume-playback-renderer,
 #like-bar.ytd-sentiment-bar-renderer,
-div.ytp-play-progress.ytp-swatch-background-color
+div.ytp-play-progress.ytp-swatch-background-color,
+.ytp-swatch-background-color
 {background-color: #f22 !important;}
 
 #label.checkbox-height.ytd-playlist-add-to-option-renderer:hover,
 a.yt-simple-endpoint.style-scope.yt-formatted-string:hover,
 span.style-scope.ytd-comment-renderer:hover,
 span#video-title:hover,
-paper-button.align-by-text.style-scope.ytd-comment-replies-renderer:hover
+paper-button.align-by-text.style-scope.ytd-comment-replies-renderer:hover,
+ytd-guide-entry-renderer[active] .guide-icon.ytd-guide-entry-renderer, ytd-guide-entry-renderer[is-guide-refresh][active] .guide-icon.ytd-guide-entry-renderer
 {color: #f22;}
 
 span.style-scope.ytd-grid-video-renderer,
 yt-formatted-string.style-scope.ytd-grid-video-renderer.complex-string a
 {color: #444;}
+}

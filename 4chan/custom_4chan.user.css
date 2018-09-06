@@ -27,6 +27,8 @@ html{
     background-attachment: fixed;
 }
 
+body{background: none !important;}
+
 ul li a{color: #bbb !important;}
 ul li a:hover{color: #fff !important;text-decoration: none !important;}
 /*

@@ -73,7 +73,8 @@ ytd-browse[page-subtype="playlist"] ytd-two-column-browse-results-renderer.ytd-b
 
 ytd-playlist-video-renderer[is-editable]:hover:not(.dragging),
 #card.ytd-miniplayer,
-#endpoint.yt-simple-endpoint.ytd-guide-entry-renderer:hover, #endpoint.yt-simple-endpoint.ytd-guide-entry-renderer:focus, #endpoint.yt-simple-endpoint.ytd-guide-entry-renderer:active
+#endpoint.yt-simple-endpoint.ytd-guide-entry-renderer:hover, #endpoint.yt-simple-endpoint.ytd-guide-entry-renderer:focus, #endpoint.yt-simple-endpoint.ytd-guide-entry-renderer:active,
+paper-toast
 {background-color: #111;}
 
 ytd-subscribe-button-renderer:not([button-style]) paper-button:not([subscribed]),

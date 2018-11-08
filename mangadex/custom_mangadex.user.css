@@ -1,194 +1,82 @@
 /* ==UserStyle==
 @name           Custom mangadex
 @namespace      https://github.com/just12/web-styles
-@version        0.1.0
+@version        0.2.0
 @description    I dont like those gradients
 @author         just12
 ==/UserStyle== */
 @-moz-document url-prefix("https://mangadex.org/") {
-    footer
-    {display:none;}
+    #content > div.row > div.col-lg-4 > div:nth-child(2)
+    {display: none;}
     
-    *{outline: none !important;}
+    .bg-light, .bg-dark
+    {background-color: #000 !important;}
     
-    .form-control:focus {box-shadow: inset 0 0px 1px rgba(0,0,0,0), 0 0 0px rgba(102, 175, 233, 0);}
-    
-    .btn .btn-info,
-    .btn .btn-success,
-    .btn-danger,
-    .btn-warning
-    {border: 0px solid #000 !important;}
-    
-    .btn .btn-info,
-    .btn .btn-success
-    {border: none !important;}
-    
-    .well
-    {border-color: #0d0d0d;}
-    
-    .btn,
-    .pagination > li.active > a, .pagination > li.active > span,
-    .navbar-default .navbar-nav > li > a:hover,
-    .navbar-default,
-    .pagination > li > a:hover, .pagination > li > span:hover,
-    .pagination > li.disabled > a, .pagination > li.disabled > a:hover, .pagination > li.disabled > span, .pagination > li.disabled > span:hover,
-    .pagination > li > a, .pagination > li > span,
-    .breadcrumb
-    {background-image: none !important;}
-    
-    .pagination > li.active > a, .pagination > li.active > span
-    {background-color: #080808;}
-    
-    .navbar-default .navbar-nav > li > a:hover,
-    .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus
-    {background-color: #111;}
-    
-    .navbar-default,
-    .pagination > li > a:hover, .pagination > li > span:hover,
-    .well,
-    .btn-default:focus, .btn-default.focus
-    {background-color: #222;}
-    
-    .btn-default,
-    .pagination > li.disabled > a, .pagination > li.disabled > a:hover, .pagination > li.disabled > span, .pagination > li.disabled > span:hover,
-    .pagination > li > a, .pagination > li > span,
-    .breadcrumb
-    {background-color: #333;}
-    
-    .btn-default:hover
-    {background-color: #444;}
-    
-    .btn-danger
-    {background-color: #ff2222;}
-    
-    .btn-danger:hover
-    {background-color: #ff4b4b;}
-    
-    .btn-info
-    {background-color: #22ABFF;}
-    
-    .btn-info:hover, .btn-info:hover
-    {background-color: #4dbbff;}
-    
-    .btn-primary
-    {background-color: #0062ff;}
-    
-    .btn-primary:hover, .open > .dropdown-toggle.btn-primary:focus
-    {background-color: #0048bb !important;}
-    
-    .btn-success
-    {background-color: #3aa61c;}
-    
-    .btn-success:hover
-    {background-color: #56ac3d;}
-    
-    .btn-warning
-    {background-color: #d8a30e;}
-    
-    .btn-warning:hover
-    {background-color: #eebb2c;}
-    
-    body,
-    .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default,
-    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus
+    body, .bg-reader-controls,
+    .dropdown-menu
     {background-color: #111 !important;}
     
-    .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus,
-    .table-responsive > .table,
-    .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus,
-    .panel-default > .panel-heading,
-    .label-default
+    thead, .table-header, .card-header, .modal-header
     {background-color: #222;}
     
-    .nav > li > a:hover, .nav > li > a:focus,
-    .table-striped > tbody > tr:nth-of-type(odd),
-    table.table.table-condensed.edit,
-    table,
-    .panel
+    .card,
+    .list-group-item,
+    .btn-secondary, .btn-default, .btn-outline-secondary,
+    .form-control, .form-control:focus,
+    .card-body, #latest_updates, #follows_updates, #site_settings, #change_profile, #change_password, #upload_settings, #reader_settings, #filter_settings, .modal-body, .modal-footer, .well
+    {background: #333 !important;}
+    
+    div.car-caption,
+    .dropdown-item:hover, .dropdown-item:focus, .dropdown-item.active
     {background-color: #333;}
     
-    .table-hover > tbody > tr:hover,
-    .dropdown-menu,
-    .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus,
-    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus
-    {background-color: #444;}
+    .badge-secondary, kbd,
+    .btn-secondary:hover, .btn-secondary:focus, .btn-default:hover, .btn-default:focus, .btn-outline-secondary:hover, .btn-outline-secondary:focus, .btn-outline-secondary.active,
+    .alert,
+    .btn-light, .page-item .page-link, .page-item.disabled .page-link
+    {background-color: #666 !important;}
     
-    .badge
-    {background-color: #999;}
+    .btn-light:hover, .btn-light:active, .btn-light:focus, .page-item.active .page-link
+    {background-color: #777 !important;}
     
-    .label-danger
+    .nav-pills .nav-link:not(.active), .nav-pills .show > .nav-link
+    {background: #ff222222;}
+    
+    .nav-tabs .nav-link:not(.active):hover, .nav-pills .nav-link:not(.active):hover, .nav-tabs .nav-link:focus,
+    .reader-page-bar .thumb, .reader-page-bar:hover .thumb
+    {background-color: #ff222255 !important;}
+    
+    .reader-page-bar .trail
+    {background-color: #33333388 !important;}
+    
+    .nav-tabs .nav-link.active, .nav-tabs .nav-link.active:hover, .nav-tabs .nav-item.show .nav-link, .nav-pills .nav-link.active, .nav-pills .show > .nav-link
     {background-color: #f22;}
     
-   
-    .alert-warning {
-    color: #fff;
-    background-color: #d8a30e;
-    border-color: #d8a30e;
-    }
+    .list-group-item
+    {border-color: #000;}
     
-    .text-info, .text-info:hover
-    {color: #22ABFF;}
+    .nav.nav-tabs, .nav.nav-pills, .card-header-pills,
+    .border-bottom,
+    .border-top
+    {border-color: #f22 !important;}
     
-    .text-success, .text-success:hover
-    {color: #5EE239;}
+    .bg-light, .bg-dark
+    {border: none !important;}
     
-    textarea,
-    .pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus
-    {color: #999;}
-
-    input[type="text"]::-webkit-input-placeholder{color: #999;}
+    .text-muted
+    {color: #444;}
+    
+    .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus,
+    a, .nav-tabs .nav-link:not(.active):hover, .nav-tabs .nav-link:focus
+    {color: #ccc;}
+    
+    footer
+    {display:none;}   input[type="text"]::-webkit-input-placeholder{color: #999;}
     input[type="text"]::-moz-placeholder{color: #999;}    
     input[type="text"]:-ms-input-placeholder{color: #999;}    
     input[type="text"]:-moz-placeholder{color: #999;}
     
     textarea.form-control::placeholder{color: #999;}
 
-img[title="English"],
-img[title="Polish"],
-img[title="Italian"],
-img[title="Russian"],
-img[title="German"],
-img[title="Hungarian"],
-img[title="French"],
-img[title="Vietnamese"],
-img[title="Bulgarian"],
-img[title="Spanish (Es)"],
-img[title="Portuguese (Br)"],
-img[title="Swedish"],
-img[title="Turkish"],
-img[title="Indonesian"],
-img[title="Spanish (LATAM)"],
-img[title="Japanese"],
-img[title="Portuguese (Pt)"],
-img[title="Filipino"],
-img[title="Arabic"]
-/*img[title="Catalan"]*/{
-    box-sizing: border-box;
-    width: 24px;
-    height: 18px;
-    padding-left: 24px;
-    background-size: cover;
-    background-position: center;
-}
 
-img[title="English"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-united-kingdom_1f1ec-1f1e7.png");}
-img[title="Polish"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-poland_1f1f5-1f1f1.png");}
-img[title="Italian"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-italy_1f1ee-1f1f9.png");}
-img[title="Russian"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-russia_1f1f7-1f1fa.png");}
-img[title="German"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-germany_1f1e9-1f1ea.png");}
-img[title="Hungarian"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-hungary_1f1ed-1f1fa.png");}
-img[title="French"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-france_1f1eb-1f1f7.png");}
-img[title="Vietnamese"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-vietnam_1f1fb-1f1f3.png");}
-img[title="Bulgarian"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-bulgaria_1f1e7-1f1ec.png");}
-img[title="Spanish (Es)"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-spain_1f1ea-1f1f8.png");}
-img[title="Portuguese (Br)"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-brazil_1f1e7-1f1f7.png");}
-img[title="Swedish"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-sweden_1f1f8-1f1ea.png");}
-img[title="Turkish"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-turkey_1f1f9-1f1f7.png");}
-img[title="Indonesian"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-indonesia_1f1ee-1f1e9.png");}
-img[title="Spanish (LATAM)"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/120/flag-for-mexico_1f1f2-1f1fd.png");}
-img[title="Japanese"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/131/flag-for-japan_1f1ef-1f1f5.png");}
-img[title="Filipino"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/131/flag-for-philippines_1f1f5-1f1ed.png");}
-img[title="Portuguese (Pt)"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/131/flag-for-portugal_1f1f5-1f1f9.png");}
-img[title="Arabic"]{background-image: url("https://emojipedia-us.s3.amazonaws.com/thumbs/160/twitter/131/flag-for-saudi-arabia_1f1f8-1f1e6.png");}
-/*img[title="Catalan"]{background-image: url("");}*/
 }

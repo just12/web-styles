@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Custom mangadex
 @namespace      https://github.com/just12/web-styles
-@version        0.2.0
+@version        0.2.1
 @description    I dont like those gradients
 @author         just12
 ==/UserStyle== */
@@ -29,6 +29,12 @@
     div.car-caption,
     .dropdown-item:hover, .dropdown-item:focus, .dropdown-item.active
     {background-color: #333;}
+    
+    .table-striped > tbody > tr:nth-of-type(2n+1)
+    {background-color: #282828;}
+    
+    .table-striped > tbody > tr:nth-of-type(2n+2)
+    {background-color: #222;}
     
     .badge-secondary, kbd,
     .btn-secondary:hover, .btn-secondary:focus, .btn-default:hover, .btn-default:focus, .btn-outline-secondary:hover, .btn-outline-secondary:focus, .btn-outline-secondary.active,

@@ -1,3 +1,11 @@
+/* ==UserStyle==
+@name           Custom youtube
+@namespace      https://github.com/just12/web-styles
+@version        0.1.0
+@description    A new userstyle
+@author         just12
+==/UserStyle== */
+
 @-moz-document domain("youtube.com") {
 ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-child(4),
 ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-child(5),

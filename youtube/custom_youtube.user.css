@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Custom youtube
 @namespace      https://github.com/just12/web-styles
-@version        0.1.2
+@version        0.1.3
 @description    A new userstyle
 @author         just12
 ==/UserStyle== */
@@ -18,8 +18,6 @@ button#guide-button.style-scope.ytd-masthead,
 #player-ads
 {display: none;}
 
-.ytp-offline-slate-bar{min-width:500px;}
-    
 ytd-searchbox[mode=legacy][has-focus]#container.ytd-searchbox,
 div#container.style-scope.ytd-searchbox,
 ytd-searchbox[mode=legacy][has-focus] #container.ytd-searchbox,
@@ -69,9 +67,8 @@ ytd-watch,
 body,html,
 div.ytd-app,
 ytd-watch-flexy,
-#columns.ytd-watch-flexy
-ytd-searchbox[mode=legacy] #container.ytd-searchbox, ytd-searchbox[mode=legacy-centered] #container.ytd-searchbox,
-#columns.ytd-watch-flexy
+#columns.ytd-watch-flexy,
+ytd-searchbox[mode=legacy] #container.ytd-searchbox, ytd-searchbox[mode=legacy-centered] #container.ytd-searchbox
 {background-color: #000 !important;}
 
 ytd-playlist-sidebar-renderer,

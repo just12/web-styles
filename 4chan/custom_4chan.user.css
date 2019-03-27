@@ -5,7 +5,7 @@
 @description    Custom style
 @author         just12
 ==/UserStyle== */
-@-moz-document url-prefix("https://www.4chan.org/") {
+@-moz-document url-prefix("https://4chan.org/") {
 div#ft,#hd,div#doc div:nth-child(7),div#doc div:nth-child(8),div#doc div:nth-child(9),div#doc div:nth-child(10),div#boards div div.boxbar, #popular-threads, #site-stats{display:none;}
 
 div#boards{

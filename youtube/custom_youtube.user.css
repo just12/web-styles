@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Custom youtube
 @namespace      https://github.com/just12/web-styles
-@version        0.1.1
+@version        0.1.2
 @description    A new userstyle
 @author         just12
 ==/UserStyle== */
@@ -70,7 +70,8 @@ body,html,
 div.ytd-app,
 ytd-watch-flexy,
 #columns.ytd-watch-flexy
-ytd-searchbox[mode=legacy] #container.ytd-searchbox, ytd-searchbox[mode=legacy-centered] #container.ytd-searchbox
+ytd-searchbox[mode=legacy] #container.ytd-searchbox, ytd-searchbox[mode=legacy-centered] #container.ytd-searchbox,
+#columns.ytd-watch-flexy
 {background-color: #000 !important;}
 
 ytd-playlist-sidebar-renderer,

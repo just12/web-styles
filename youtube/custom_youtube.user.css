@@ -1,8 +1,8 @@
 /* ==UserStyle==
 @name           Custom youtube
 @namespace      https://github.com/just12/web-styles
-@version        0.1.3
-@description    A new userstyle
+@version        0.1.4
+@description    A userstyle for youtube
 @author         just12
 ==/UserStyle== */
 
@@ -36,14 +36,16 @@ form#search-form.style-scope.ytd-searchbox
     margin: 0px;
 }
 
-ytd-watch:not([fullscreen])[theater] #player.ytd-watch {max-height: calc(100vh - 56px);}
+ytd-watch-flexy[theater] #player-theater-container.ytd-watch-flexy{height: calc(100vh - 56px);max-height: calc(100vh - 56px);}
+ytd-watch-flexy[fullscreen] #player-theater-container.ytd-watch-flexy{height: 100vh;max-height: none;}
 
-#player-theater-container{
+/*#player-theater-container{
     max-height: calc(100vh - 56px) !important;
 }
-/*.ytp-iv-video-content{height: 100% !important;width: 100% !important;}*/
+.ytp-iv-video-content{height: 100% !important;width: 100% !important;}*/
 
-ytd-searchbox[mode=legacy] #container.ytd-searchbox{
+ytd-searchbox[mode=legacy] #container.ytd-searchbox,
+#container.ytd-searchbox{
     border: 0px;
     background-color: #000;
     border-radius: 0px;

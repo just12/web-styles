@@ -2,7 +2,7 @@
 Custom styles for various webs.
 
 ### Installation
-To install this custom styles in your browser you need to install [Stylus](https://github.com/stylus/stylus) and the open the raw file from the style you want to install
+To install this custom styles in your browser you need to install [Stylus](https://github.com/stylus/stylus) and then open the raw file from the style you want to install
 
 ### 4chan
 ![alt text](https://github.com/just12/web-styles/raw/master/4chan/4chan.png)

@@ -116,4 +116,5 @@ yt-formatted-string.style-scope.ytd-grid-video-renderer.complex-string a
 .ytp-gradient-top
 {background-image: none !important;}
 
+.ytp-offline-slate-bar{width: calc(100% - 24px);}
 }
